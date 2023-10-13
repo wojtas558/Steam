@@ -1,0 +1,17 @@
+.active-number{
+    font-size: 25px;
+    font-weight: 300;
+    color: aliceblue;
+}
+.online{
+    color: rgb(200, 234, 243);
+
+}
+.in-game{
+    color: rgb(200, 255, 205);
+}
+@media (max-width: 991.98px) {
+    .download-section{
+        width: 60%;
+    }
+}
