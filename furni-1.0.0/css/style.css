@@ -16,7 +16,7 @@ body {
   line-height: 28px;
   color: #6a6a6a;
   font-size: 14px;
-  background-color: #eff2f1; }
+  background-color: #1c2024; }
 
 a {
   text-decoration: none;
@@ -203,35 +203,35 @@ a {
 .section-title {
   color: #2f2f2f; }
 
-.shop {
+.product-section {
   background: rgb(25,43,67);
   background: radial-gradient(circle, rgba(25,43,67,1) 0%, rgba(27,37,51,1) 45%, rgba(29, 32, 36, 1) 60%);
   /* background: linear-gradient(180deg, rgba(25,43,67,1) 0%, rgba(29,32,36,1) 100%); */
   padding: 7rem 0; }
-  .shop .product-item {
+  .product-section .product-item {
     text-align: center;
     text-decoration: none;
     display: block;
     position: relative;
     padding-bottom: 50px;
     cursor: pointer; }
-    .shop .product-item .product-thumbnail {
+    .product-section .product-item .product-thumbnail {
       margin-bottom: 30px;
       position: relative;
       top: 0;
       -webkit-transition: .3s all ease;
       -o-transition: .3s all ease;
       transition: .3s all ease; }
-    .shop .product-item h3 {
+    .product-section .product-item h3 {
       font-weight: 600;
       font-size: 16px; }
-    .shop .product-item strong {
+    .product-section .product-item strong {
       font-weight: 800 !important;
       font-size: 18px !important; }
-    .shop .product-item h3, .shop .product-item strong {
+    .product-section .product-item h3, .product-section .product-item strong {
       color: #2f2f2f;
       text-decoration: none; }
-    .shop .product-item .icon-cross {
+    .product-section .product-item .icon-cross {
       position: absolute;
       width: 35px;
       height: 35px;
@@ -249,14 +249,14 @@ a {
       -webkit-transition: .3s all ease;
       -o-transition: .3s all ease;
       transition: .3s all ease; }
-      .shop .product-item .icon-cross img {
+      .product-section .product-item .icon-cross img {
         position: absolute;
         left: 50%;
         top: 50%;
         -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%); }
-    .shop .product-item:before {
+    .product-section .product-item:before {
       bottom: 0;
       left: 0;
       right: 0;
@@ -269,13 +269,13 @@ a {
       -webkit-transition: .3s all ease;
       -o-transition: .3s all ease;
       transition: .3s all ease; }
-    .shop .product-item:hover .product-thumbnail {
+    .product-section .product-item:hover .product-thumbnail {
       top: -25px; }
-    .shop .product-item:hover .icon-cross {
+    .product-section .product-item:hover .icon-cross {
       bottom: 0;
       opacity: 1;
       visibility: visible; }
-    .shop .product-item:hover:before {
+    .product-section .product-item:hover:before {
       height: 70%; }
 
 .offer {
@@ -295,9 +295,10 @@ a {
   font-weight: 300;
 }
 .offer .link{
-  font-size: 21px;
+  font-size: 18px;
   color: #1ed2ff;
   font-weight: 500;
+  text-decoration: none;
 }
 
 .offer img{
@@ -330,77 +331,71 @@ a {
     .offer .img-wrap img {
       border-radius: 20px; }
 
-.feature {
+.features {
   margin-bottom: 30px; }
-  .feature .icon {
-    display: inline-block;
-    position: relative;
-    margin-bottom: 20px; }
-    .feature .icon:before {
-      content: "";
-      width: 33px;
-      height: 33px;
-      position: absolute;
-      background: rgba(59, 93, 80, 0.2);
-      border-radius: 50%;
-      right: -8px;
-      bottom: 0; }
-  .feature h3 {
+  .features .icon {
+    width: 26%;
+    aspect-ratio: 1;
+    background-color: #3e3e3eb6;
+    transition: width 0.5s;
+  }
+  .features .feature{
+    padding: 30px 4px;
+  }
+  .features .feature:hover{
+    background-color: #29313a;
+    border-radius: 50px;
+    overflow: hidden;
+  }
+  .features .feature:hover .icon{
+    background-color: #1c92ff;
+    width: 35%
+  }
+  .features .link{
+    font-size: 0px;
+    transition: font-size 0.6s;
+    color: #1ed2ff;
+    text-decoration: none;
+  } 
+  .features .link i{
+    margin-left: 5px;
+  }
+  .features .feature:hover .link{
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .features h3 {
     font-size: 14px;
     color: #2f2f2f; }
-  .feature p {
+  .features p {
     font-size: 14px;
     line-height: 22px;
     color: #6a6a6a; }
+  .features .header{
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 60px;
+    color: #ffffff;
+  }
+  .features .text{
+    padding: 12px 0px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 300;
+  }
+  .features .title .header{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+    color: #ffffff;
+  }
+  .features .title .text{
+    padding: 16px 0px;
+    font-size: 27px;
+    color: #ffffff;
+    font-weight: 400;
+  }
 
-.we-help-section {
-  padding: 7rem 0; }
-  .we-help-section .imgs-grid {
-    display: -ms-grid;
-    display: grid;    
-    -ms-grid-columns: (1fr);
-    grid-template-columns: repeat(27, 1fr);
-    position: relative; }
-    .we-help-section .imgs-grid:before {
-      position: absolute;
-      content: "";
-      width: 255px;
-      height: 217px;
-      background-image: url("../images/dots-green.svg");
-      background-size: contain;
-      background-repeat: no-repeat;
-      -webkit-transform: translate(-40%, -40%);
-      -ms-transform: translate(-40%, -40%);
-      transform: translate(-40%, -40%);
-      z-index: -1; }
-    .we-help-section .imgs-grid .grid {
-      position: relative; }
-      .we-help-section .imgs-grid .grid img {
-        border-radius: 20px;
-        max-width: 100%; }
-      .we-help-section .imgs-grid .grid.grid-1 {
-        -ms-grid-column: 1;
-        -ms-grid-column-span: 18;
-        grid-column: 1 / span 18;
-        -ms-grid-row: 1;
-        -ms-grid-row-span: 27;
-        grid-row: 1 / span 27; }
-      .we-help-section .imgs-grid .grid.grid-2 {
-        -ms-grid-column: 19;
-        -ms-grid-column-span: 27;
-        grid-column: 19 / span 27;
-        -ms-grid-row: 1;
-        -ms-grid-row-span: 5;
-        grid-row: 1 / span 5;
-        padding-left: 20px; }
-      .we-help-section .imgs-grid .grid.grid-3 {
-        -ms-grid-column: 14;
-        -ms-grid-column-span: 16;
-        grid-column: 14 / span 16;
-        -ms-grid-row: 6;
-        -ms-grid-row-span: 27;
-        grid-row: 6 / span 27;
-        padding-top: 20px; }
 
 .custom-list {
   width: 100%; }
