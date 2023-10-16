@@ -2,6 +2,7 @@
     font-size: 25px;
     font-weight: 300;
     color: aliceblue;
+    text-wrap: nowrap;
 }
 .online{
     color: rgb(200, 234, 243);
@@ -13,5 +14,6 @@
 @media (max-width: 991.98px) {
     .download-section{
         width: 60%;
+        overflow: hidden;
     }
 }
