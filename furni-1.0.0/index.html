@@ -22,7 +22,7 @@
 	
 	<title>Steam</title>
 </head>
-<body>
+<body onload="calcView()" onresize="calcView()">
 	<!-- Start Header/Navigation -->
 	<nav class="custom-navbar navbar navbar navbar-expand-lg navbar-dark" arial-label="Steam navigation bar">
 		<div class="container">
@@ -89,71 +89,38 @@
 				</div>
 			</div>
 		</div>
-		<div class="container-fluid text-center text-uppercase my-5 test">
-			<a href="#offer" class="learn-more">Dowiedz sie więcej<i class="fa-solid fa-chevron-down d-block fa-xl" style="margin: 8px;"></i></a>
+		<div class="container-fluid text-center text-uppercase test">
+			<a href="#games" class="learn-more">Dowiedz sie więcej<i class="fa-solid fa-chevron-down d-block fa-xl" style="margin: 8px;"></i></a>
 		</div>
 	</div>
 	<!-- End main section -->
-	<!-- Start shop Section -->
-	<div class="shop visually-hidden">
-		<div class="container">
-			<div class="row">
-
-				<!-- Start Column 1 -->
-				<div class="col-md-12 col-lg-3 mb-5 mb-lg-0">
-					<h2 class="mb-4 section-title">Crafted with excellent material.</h2>
-					<p class="mb-4">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. </p>
-					<p><a href="shop.html" class="btn">Explore</a></p>
-				</div> 
-				<!-- End Column 1 -->
-
-				<!-- Start Column 2 -->
-				<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
-					<a class="product-item" href="cart.html">
-						<img src="img/product-1.png" class="img-fluid product-thumbnail">
-						<h3 class="product-title">Nordic Chair</h3>
-						<strong class="product-price">$50.00</strong>
-
-						<span class="icon-cross">
-							<img src="img/cross.svg" class="img-fluid">
-						</span>
-					</a>
-				</div> 
-				<!-- End Column 2 -->
-
-				<!-- Start Column 3 -->
-				<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
-					<a class="product-item" href="cart.html">
-						<img src="img/product-2.png" class="img-fluid product-thumbnail">
-						<h3 class="product-title">Kruzo Aero Chair</h3>
-						<strong class="product-price">$78.00</strong>
-
-						<span class="icon-cross">
-							<img src="img/cross.svg" class="img-fluid">
-						</span>
-					</a>
-				</div>
-				<!-- End Column 3 -->
-
-				<!-- Start Column 4 -->
-				<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
-					<a class="product-item" href="cart.html">
-						<img src="img/product-3.png" class="img-fluid product-thumbnail">
-						<h3 class="product-title">Ergonomic Chair</h3>
-						<strong class="product-price">$43.00</strong>
-
-						<span class="icon-cross">
-							<img src="img/cross.svg" class="img-fluid">
-						</span>
-					</a>
-				</div>
-				<!-- End Column 4 -->
-			</div>
+	<!-- Start games Section -->
+	<div class="games" id="games">
+		<div class="row my-5">
+			<div class="game col" id="game1"><span class="float-end"><a href="#"><img src="img/games/game1.jpg" alt="game1" class="img-fluid mx-auto d-block rounded-pill"></a><span></div>
+			<div class="game col" id="game2"><span class="float-start"><a href="#"><img src="img/games/game2.jpg" alt="game1" class="img-fluid mx-auto d-block rounded-pill"></a><span></div>
+		</div>
+		<div class="row my-5">
+			<div class="game col" id="game3"><span class="float-start"><a href="#"><img src="img/games/game3.jpg" alt="game1" class="img-fluid mx-auto d-none d-md-block rounded-pill"></a><span></div>
+			<div class="game col" id="game4"><span class="float-end"><a href="#"><img src="img/games/game4.jpg" alt="game1" class="img-fluid mx-auto d-none d-md-block rounded-pill"></a><span></div>
+		</div>
+		<div class="row my-5">
+			<div class="game col" id="game5"><span class="float-start"><a href="#"><img src="img/games/game5.jpg" alt="game1" class="img-fluid mx-auto d-none d-md-block rounded-pill rounded-pill"></a><span></div>
+			<div class="game col" id="game6"><span class="float-end"><a href="#"><img src="img/games/game6.jpg" alt="game1" class="img-fluid mx-auto d-none d-md-block rounded-pill rounded-pill"></a><span></div>
+		</div>
+		<div class="row my-5">
+			<div class="game col" id="game7"><span class="float-end"><a href="#"><img src="img/games/game7.jpg" alt="game1" class="img-fluid mx-5 d-block rounded-pill"></a><span></div>
+			<div class="game col" id="game8"><span class="float-start"><a href="#"><img src="img/games/game8.jpg" alt="game1" class="img-fluid mx-5 d-block rounded-pill"></a><span></div>
+		</div>
+		<div class="title text-center" id="title">
+			<div class="header mx-auto">Natychmiastowy dostęp do gier</div>
+			<div class="text mx-auto">Dzięki niemal 30 000 gier wysokobudżetowych, niezależnych i wszystkich pośrodku. Skorzystaj z ekskluzywnych ofert, automatycznych aktualizacji gier i innych świetnych funkcji.</div>
+			<div class="link m-5"><a class="icon-link icon-link-hover" href="#">Przeglądaj sklep<i class="fa-solid fa-arrow-right"></i></a></div>
 		</div>
 	</div>
-	<!-- End shop Section -->
+	<!-- End games Section -->
 	<!-- Start offer Section -->
-	<div class="offer" id="offer">
+	<div class="offer">
 		<div class="container">
 			<div class="row justify-content-between">
 				<div class="col-lg-7 my-5 order-lg-1 ">
@@ -196,6 +163,9 @@
 				<div class="header text-center">Funkcje</div>
 				<div class="text text-center w-50 m-auto">Ciągle pracujemy nad nowymi aktualizacjami i funkcjonalnościami na Steam, takimi jak:</div>
 			</div>
+			<!-- <div>
+				<div class="carousel"></div>
+			</div> -->
 			<div class="row d-flex">
 				<div class="col-lg-4 col-md-6 py-5 text-center ">
 					<div class="feature">						
@@ -203,7 +173,7 @@
 							<img src="img/features/steamchat.svg" alt="czat steam" class="w-50 h-100 m-auto d-block">
 						</div>
 						<div class="header my-2">Czat Steam</div>
-						<div class="text">Rozmawiaj ze znajomymi i grupami za pomocą tekstu lub głosu bez opuszczania Steam. Obsługiwane są wideo, tweety, GIF-y i wiele więcej – korzystaj z nich rozważnie.</div>
+						<div class="text">Rozmawiaj ze znajomymi i grupami za pomocą tekstu lub głosu bez opuszczania Steam. Obsługiwane są wideo, tweety, GIF-y i wiele więcej - korzystaj z nich rozważnie.</div>
 						<a href="#" class="link icon-link icon-link-hover">Dowiedz się więcej<i class="fa-solid fa-arrow-right"></i></a>
 					</div>
 				</div>
@@ -340,5 +310,6 @@
 	<script src="js/bootstrap.bundle.min.js"></script>
 	<script src="js/tiny-slider.js"></script>
 	<script src="js/custom.js"></script>
+	<script src="js/js.js"></script>
 </body>
 </html>

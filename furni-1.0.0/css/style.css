@@ -105,6 +105,8 @@ body {
 .main {
   background: #1c2024;
   margin: 70px 0px;
+  min-height: 90vh;
+
   }
 .main-left{
   background: radial-gradient(circle, rgba(25,43,67,1) 0%, rgba(27,37,51,1) 45%, rgba(29, 32, 36, 1) 60%);
@@ -158,6 +160,9 @@ body {
   text-decoration: none; 
   color:  #d1d1d15b;
 }
+.main .container-fluid{ /*learn more container */
+  margin-top: 15vh;
+}
 .learn-more:hover{
   color:  #d1d1d15b;
 }
@@ -167,6 +172,81 @@ body {
     margin: 40px 0px;
   }
 }
+
+.games{
+  background: radial-gradient(circle, rgba(25,43,67,1) 10%, rgba(27,37,51,1) 30%, #1c2024 55%);
+  min-height: 100vh;
+  position: relative; 
+}
+.games .title{
+  position:absolute;
+  margin: 0px;
+  padding: 0px;
+  top: 50%;
+}
+.games .title .header{
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 50px;
+  color: #ffffff;  
+  width: 80%;  
+  transition: font-size 0.9s;
+}
+.games .title .text{
+  padding: 16px 0px;
+  font-size: 23px;
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 130%;
+  width: 88%;
+  transition: font-size 1.5s;
+}
+.games .title .link a{
+  text-decoration: none;
+  color: #1ed2ff;
+  font-size: 150%;
+  font-weight: 500;
+}
+.games .title .link i{
+  margin-left: 5px;
+}
+.games .game{
+  margin: 5vh 0vh;
+  opacity: 0.55;
+}
+.games .game img{  
+  min-width: 200px;
+}
+.games #game5, .games #game2{
+  margin-left: 13vh;
+}
+.games #game6, .games #game1{
+  margin-right: 13vh;
+}
+@media (min-width: 768px) {/*medium*/
+  .games .title .header{
+    font-size: 70px;
+    line-height: 80px;
+    padding: 30px 0px;
+  }
+  .games .title .text{
+    font-size: 27px;
+    line-height: 130%;
+  }  
+}
+@media (min-width: 992px) {/*large*/
+  .games .title .header{
+    font-size: 100px;
+    line-height: 110px;
+  }
+  .games .title .text{
+    font-size: 30px;
+    line-height: 140%;
+  }  
+}
+
+
+
 
 .btn {
   font-weight: 600;
