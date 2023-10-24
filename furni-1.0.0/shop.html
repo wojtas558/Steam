@@ -1,17 +1,10 @@
-<!-- /*
-* Bootstrap 5
-* Template Name: Furni
-* Template Author: Untree.co
-* Template URI: https://untree.co/
-* License: https://creativecommons.org/licenses/by/3.0/
-*/ -->
 <!doctype html>
 <html lang="pl">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="author" content="Untree.co">
-	<link rel="shortcut icon" href="favicon.png">
+	<link rel="shortcut icon" href="img/favicon.png">
 
 	<meta name="description" content="" />
 	<meta name="keywords" content="bootstrap, bootstrap4" />
@@ -47,124 +40,214 @@
 		</div>
 	</nav>
 	<!-- End Header/Navigation --> 
-	<!-- Start Hero Section -->
-	<div class="hero">
-		<div class="container">
-			<div class="row justify-content-between">
-				<div class="col-lg-5">
-					<div class="intro-excerpt">
-						<h1>Shop</h1>
+	<!-- Start featured Section -->
+	<div class="featured">
+		<div class="container-xl">
+			<div class="row">
+				<div id="featuredCarousel" class="carousel slide carousel-fade mx-auto" data-bs-interval="false">
+					<div class="carousel-indicators">
+						<button type="button" data-bs-target="#featuredCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Game 1"></button>
+						<button type="button" data-bs-target="#featuredCarousel" data-bs-slide-to="1" aria-label="Game 2"></button>
+						<button type="button" data-bs-target="#featuredCarousel" data-bs-slide-to="2" aria-label="Game 3"></button>
+						<button type="button" data-bs-target="#featuredCarousel" data-bs-slide-to="3" aria-label="Game 4"></button>
+						<button type="button" data-bs-target="#featuredCarousel" data-bs-slide-to="4" aria-label="Game 5"></button>
 					</div>
-				</div>
-				<div class="col-lg-7">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<div class="row carousel-item-inner">
+								<div class="col-8 p-0">
+									<div class="featured-capsule float-end">
+										<img src="img/featured/game1/capsule.jpg" alt="" class="img-fluid">
+									</div>
+								</div>
+								<div class="featured-info col-4 bg-secondary justify-content-center d-flex flex-column">
+									<div class="my-auto">
+										<div class="featured-title">
+											Cyberpunk 2077
+										</div>
+										<div class="featured-screenshots">
+											<div class="row row-cols-2 g-2">
+												<div class="w-50 d-block"><img src="img/featured/game1/screenshot1.jpg" alt="ss1" class="w-100"></div>
+												<div class="w-50 d-block"><img src="img/featured/game1/screenshot2.jpg" alt="ss2" class="w-100"></div>
+												<div class="w-50 d-block"><img src="img/featured/game1/screenshot3.jpg" alt="ss3" class="w-100"></div>
+												<div class="w-50 d-block"><img src="img/featured/game1/screenshot4.jpg" alt="ss4" class="w-100"></div>
+											</div>
+										</div>
+										<div class="featured-reasons">
+											<span class="d-block mt-2">Już dostępne</span>
+											<span class="badge bg-secondary">Bestseller</span>
+										</div>
+									</div>
+									<div class="featured-bottom">
+										<div class="featured-price d-inline">
+											199,99zł
+										</div>
+										<div class="featured-platforms d-inline float-end">
+											<i class="fa-brands fa-windows fa-xl"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row carousel-item-inner">
+								<div class="col-8 p-0">
+									<div class="featured-capsule float-end">
+										<img src="img/featured/game2/capsule.jpg" alt="" class="img-fluid">
+									</div>
+								</div>
+								<div class="featured-info col-4 bg-secondary justify-content-center d-flex flex-column">
+									<div class="my-auto">
+										<div class="featured-title">
+											Cities: Skylines II
+										</div>
+										<div class="featured-screenshots">
+											<div class="row row-cols-2 g-2">
+												<div class="w-50 d-block"><img src="img/featured/game2/screenshot1.jpg" alt="ss1" class="w-100"></div>
+												<div class="w-50 d-block"><img src="img/featured/game2/screenshot2.jpg" alt="ss2" class="w-100"></div>
+												<div class="w-50 d-block"><img src="img/featured/game2/screenshot3.jpg" alt="ss3" class="w-100"></div>
+												<div class="w-50 d-block"><img src="img/featured/game2/screenshot4.jpg" alt="ss4" class="w-100"></div>
+											</div>
+										</div>
+										<div class="featured-reasons">
+											<span class="d-block mt-2">Już dostępne</span>
+											<span class="badge bg-secondary">Bestseller</span>
+										</div>
+									</div>
+									<div class="featured-bottom">
+										<div class="featured-price d-inline">
+											231,99zł
+										</div>
+										<div class="featured-platforms d-inline float-end">
+											<i class="fa-brands fa-windows fa-xl"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row carousel-item-inner">
+								<div class="col-8 p-0">
+									<div class="featured-capsule float-end">
+										<img src="img/featured/game3/capsule.jpg" alt="" class="img-fluid">
+									</div>
+								</div>
+								<div class="featured-info col-4 bg-secondary justify-content-center d-flex flex-column">
+									<div class="my-auto">
+										<div class="featured-title">
+											EA SPORTS FC™ 24
+										</div>
+										<div class="featured-screenshots">
+											<div class="row row-cols-2 g-2">
+												<div class="w-50 d-block"><img src="img/featured/game3/screenshot1.jpg" alt="ss1" class="w-100"></div>
+												<div class="w-50 d-block"><img src="img/featured/game3/screenshot2.jpg" alt="ss2" class="w-100"></div>
+												<div class="w-50 d-block"><img src="img/featured/game3/screenshot3.jpg" alt="ss3" class="w-100"></div>
+												<div class="w-50 d-block"><img src="img/featured/game3/screenshot4.jpg" alt="ss4" class="w-100"></div>
+											</div>
+										</div>
+										<div class="featured-reasons">
+											<span class="d-block mt-2">Już dostępne</span>
+											<span class="badge bg-secondary">Bestseller</span>
+										</div>
+									</div>
+									<div class="featured-bottom">
+										<div class="featured-price d-inline">
+											319,90zł
+										</div>
+										<div class="featured-platforms d-inline float-end">
+											<i class="fa-brands fa-windows fa-xl"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row carousel-item-inner">
+								<div class="col-8 p-0">
+									<div class="featured-capsule float-end">
+										<img src="img/featured/game4/capsule.jpg" alt="" class="img-fluid">
+									</div>
+								</div>
+								<div class="featured-info col-4 bg-secondary justify-content-center d-flex flex-column">
+									<div class="my-auto">
+										<div class="featured-title">
+											Diablo® IV
+										</div>
+										<div class="featured-screenshots">
+											<div class="row row-cols-2 g-2">
+												<div class="w-50 d-block"><img src="img/featured/game4/screenshot1.jpg" alt="ss1" class="w-100"></div>
+												<div class="w-50 d-block"><img src="img/featured/game4/screenshot2.jpg" alt="ss2" class="w-100"></div>
+												<div class="w-50 d-block"><img src="img/featured/game4/screenshot3.jpg" alt="ss3" class="w-100"></div>
+												<div class="w-50 d-block"><img src="img/featured/game4/screenshot4.jpg" alt="ss4" class="w-100"></div>
+											</div>
+										</div>
+										<div class="featured-reasons">
+											<span class="d-block mt-2">Dodaj do listy życzeń</span>
+											<span class="badge bg-secondary">Bestseller</span>
+										</div>
+									</div>
+									<div class="featured-bottom">
+										<div class="featured-price d-inline">
+											349,00zł
+										</div>
+										<div class="featured-platforms d-inline float-end">
+											<i class="fa-brands fa-windows fa-xl"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row carousel-item-inner">
+								<div class="col-8 p-0">
+									<div class="featured-capsule float-end">
+										<img src="img/featured/game5/capsule.jpg" alt="" class="img-fluid">
+									</div>
+								</div>
+								<div class="featured-info col-4 bg-secondary justify-content-center d-flex flex-column">
+									<div class="my-auto">
+										<div class="featured-title">
+											Red Dead Redemption 2
+										</div>
+										<div class="featured-screenshots">
+											<div class="row row-cols-2 g-2">
+												<div class="w-50 d-block"><img src="img/featured/game5/screenshot1.jpg" alt="ss1" class="w-100"></div>
+												<div class="w-50 d-block"><img src="img/featured/game5/screenshot2.jpg" alt="ss2" class="w-100"></div>
+												<div class="w-50 d-block"><img src="img/featured/game5/screenshot3.jpg" alt="ss3" class="w-100"></div>
+												<div class="w-50 d-block"><img src="img/featured/game5/screenshot4.jpg" alt="ss4" class="w-100"></div>
+											</div>
+										</div>
+										<div class="featured-reasons">
+											<span class="d-block mt-2">Już dostępne</span>
+											<span class="badge bg-secondary">Bestseller</span>
+										</div>
+									</div>
+									<div class="featured-bottom">
+										<div class="featured-price d-inline">
+											249,90zł
+										</div>
+										<div class="featured-platforms d-inline float-end">
+											<i class="fa-brands fa-windows fa-xl"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#featuredCarousel" data-bs-slide="prev">
+						<span class="" aria-hidden="true"><i class="fa-solid fa-angle-left fa-2xl"></i></span>
+						<span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#featuredCarousel" data-bs-slide="next">
+						<span class="" aria-hidden="true"><i class="fa-solid fa-angle-right fa-2xl"></i></span>
+						<span class="visually-hidden">Next</span>
+					</button>
 				</div>
 			</div>
 		</div>
 	</div>
-	<!-- End Hero Section -->
-	<div class="untree_co-section product-section before-footer-section">
-		<div class="container">
-			<div class="row">
-				<!-- Start Column 1 -->
-				<div class="col-12 col-md-4 col-lg-3 mb-5">
-					<a class="product-item" href="#">
-						<img src="img/product-3.png" class="img-fluid product-thumbnail">
-						<h3 class="product-title">Nordic Chair</h3>
-						<strong class="product-price">$50.00</strong>
-						<span class="icon-cross">
-							<img src="img/cross.svg" class="img-fluid">
-						</span>
-					</a>
-				</div> 
-				<!-- End Column 1 -->
-				<!-- Start Column 2 -->
-				<div class="col-12 col-md-4 col-lg-3 mb-5">
-					<a class="product-item" href="#">
-						<img src="img/product-1.png" class="img-fluid product-thumbnail">
-						<h3 class="product-title">Nordic Chair</h3>
-						<strong class="product-price">$50.00</strong>
-						<span class="icon-cross">
-							<img src="img/cross.svg" class="img-fluid">
-						</span>
-					</a>
-				</div> 
-				<!-- End Column 2 -->
-				<!-- Start Column 3 -->
-				<div class="col-12 col-md-4 col-lg-3 mb-5">
-					<a class="product-item" href="#">
-						<img src="img/product-2.png" class="img-fluid product-thumbnail">
-						<h3 class="product-title">Kruzo Aero Chair</h3>
-						<strong class="product-price">$78.00</strong>
-						<span class="icon-cross">
-							<img src="img/cross.svg" class="img-fluid">
-						</span>
-					</a>
-				</div>
-				<!-- End Column 3 -->
-				<!-- Start Column 4 -->
-				<div class="col-12 col-md-4 col-lg-3 mb-5">
-					<a class="product-item" href="#">
-						<img src="img/product-3.png" class="img-fluid product-thumbnail">
-						<h3 class="product-title">Ergonomic Chair</h3>
-						<strong class="product-price">$43.00</strong>
-						<span class="icon-cross">
-							<img src="img/cross.svg" class="img-fluid">
-						</span>
-					</a>
-				</div>
-				<!-- End Column 4 -->
-				<!-- Start Column 1 -->
-				<div class="col-12 col-md-4 col-lg-3 mb-5">
-					<a class="product-item" href="#">
-						<img src="img/product-3.png" class="img-fluid product-thumbnail">
-						<h3 class="product-title">Nordic Chair</h3>
-						<strong class="product-price">$50.00</strong>
-						<span class="icon-cross">
-							<img src="img/cross.svg" class="img-fluid">
-						</span>
-					</a>
-				</div> 
-				<!-- End Column 1 -->
-				<!-- Start Column 2 -->
-				<div class="col-12 col-md-4 col-lg-3 mb-5">
-					<a class="product-item" href="#">
-						<img src="img/product-1.png" class="img-fluid product-thumbnail">
-						<h3 class="product-title">Nordic Chair</h3>
-						<strong class="product-price">$50.00</strong>
-						<span class="icon-cross">
-							<img src="img/cross.svg" class="img-fluid">
-						</span>
-					</a>
-				</div> 
-				<!-- End Column 2 -->
-				<!-- Start Column 3 -->
-				<div class="col-12 col-md-4 col-lg-3 mb-5">
-					<a class="product-item" href="#">
-						<img src="img/product-2.png" class="img-fluid product-thumbnail">
-						<h3 class="product-title">Kruzo Aero Chair</h3>
-						<strong class="product-price">$78.00</strong>
-						<span class="icon-cross">
-							<img src="img/cross.svg" class="img-fluid">
-						</span>
-					</a>
-				</div>
-				<!-- End Column 3 -->
-				<!-- Start Column 4 -->
-				<div class="col-12 col-md-4 col-lg-3 mb-5">
-					<a class="product-item" href="#">
-						<img src="img/product-3.png" class="img-fluid product-thumbnail">
-						<h3 class="product-title">Ergonomic Chair</h3>
-						<strong class="product-price">$43.00</strong>
-						<span class="icon-cross">
-							<img src="img/cross.svg" class="img-fluid">
-						</span>
-					</a>
-				</div>
-				<!-- End Column 4 -->
-			</div>
-		</div>
-	</div>	
-	<!-- Start Footer Section -->
+	<!-- End featured section --> 
+	<!-- Start footer Section -->
 	<footer class="footer-section">
 		<div class="container">
 			<div class="text-center disclosures py-3 w-75 mx-auto">
@@ -188,7 +271,7 @@
 			</div>
 		</div>
 	</footer>
-	<!-- End Footer Section -->	
+	<!-- End footer Section -->	
 <script src="js/bootstrap.bundle.min.js"></script>
 <script src="js/tiny-slider.js"></script>
 <script src="js/custom.js"></script>
