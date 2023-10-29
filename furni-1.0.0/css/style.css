@@ -574,7 +574,7 @@ body {
 
 
 .specialOffers{
-  margin: 10vh 0px;
+  margin: 18vh 0px;
 }
 .specialOffers .carousel{
   width: 75%;
@@ -655,4 +655,62 @@ body {
 }
 .minus-90.specialOffers-price::after{
   content: "-90%";
+}
+
+
+
+.categories {
+  margin: 10vh 0px;
+}
+.categories .carousel{
+  width: 75%;
+}
+.categories .carousel-control-prev{
+  left: -6vw;
+}
+.categories .carousel-control-next{
+  right: -6vw;
+}
+.categories img{
+  width: 100%;
+}
+.relative{
+  position: relative;
+  overflow: hidden;
+}
+.categories .gradient{  
+  width: 100%;
+  height:100%; 
+  bottom: 100%;
+  position: relative;
+}
+.categories .gradient.blue{  
+  background: linear-gradient(rgba(0,0,0,0), rgb(0,0,139) 100%);
+}
+.categories .gradient.green{  
+  background: linear-gradient(rgba(0,0,0,0), rgb(0, 139, 0) 100%);
+}
+.categories .gradient.red{  
+  background: linear-gradient(rgba(0,0,0,0), rgb(139,0,0) 100%);
+}
+.categories .gradient.yellow{  
+  background: linear-gradient(rgba(0,0,0,0), rgb(184,139,11) 100%);
+}
+.categories .gradient.cyan{  
+  background: linear-gradient(rgba(0,0,0,0), rgb(0,139,139) 100%);
+}
+.categories .gradient.pink{  
+  background: linear-gradient(rgba(0,0,0,0), rgb(139,0,139) 100%);
+}
+.categories a{
+  text-decoration: none;
+}
+.categories .name{
+  width: 100%;
+  text-align: center;
+  bottom: 120%; 
+  position: relative;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
 }
