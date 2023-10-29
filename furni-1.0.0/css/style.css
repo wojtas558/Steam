@@ -495,39 +495,55 @@ body {
 /* shop.html           */
 /*                     */
 
+
+
+
+
+
 .featured{
-  height: 100vh;
-  /* wywalic później */
+  margin: 10vh 0px;
+}
+.featured .carousel{
+  width: 80%;
+}
+@media (min-width: 1200px) {/*Extra large*/
+  .featured .carousel{
+    width: 79%;
+  }
+}
+@media (min-width: 1400px) {/*Extra Extra large*/
+  .featured .carousel{
+    width: 86.5%;
+  }
+}
+.featured .carousel-control-prev{
+  left: -6vw;
+}
+.featured .carousel-control-next{
+  right: -6vw;
 }
 .featured-header{
   font-size: 2rem;
   margin: 2.5vh;
 } 
-#featuredCarousel{
-  margin: 5vh 0px;
-  width: 100%;
-}
-/* @media (min-width: 992px) {
-  #featuredCarousel {
-    width: 85%;
-  }
-} */
-#featuredCarousel .carousel-indicators{
+.carousel-indicators{
   top: 103%;
 }
-.carousel-item{
-  width: 75%;
-  margin-left: 12%;
+#featuredCarousel .carousel-item{
+  width: 100%; 
 }
-.carousel-item .carousel-item-inner{
-  min-width: 805px;
+.featured-capsule{
+  max-width: 616px;
 }
-
+.featured-capsule .img-fluid{
+  /* min-height: 320px; */
+}
 .featured-info{
   background-image: url("/furni-1.0.0/img/featured/background.jpg");
   background-repeat: no-repeat;
   background-size: 130%;
   padding: 12px;
+  max-height: 353px;
 }
 .featured-title{
   color: #ffffff;
@@ -554,3 +570,89 @@ body {
   color: #ffffff;
 }
 
+
+
+
+.specialOffers{
+  margin: 10vh 0px;
+}
+.specialOffers .carousel{
+  width: 75%;
+}
+.specialOffers .carousel-control-prev{
+  left: -6vw;
+}
+.specialOffers .carousel-control-next{
+  right: -6vw;
+}
+.specialOffers .card{
+  border: none;
+}
+.specialOffers .card-body{
+  position: absolute;
+  bottom: 0px;
+  background-image: url("/furni-1.0.0/img/featured/background.jpg");
+  /* background-color: #1c2024; */
+  /* background: linear-gradient(135deg, #25303dcc 15%, rgba(0, 0, 0, 0) 75%); */
+}
+.specialOffers-reason{
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 500;
+}
+.specialOffers-time{
+  color: #acdbf5;
+  font-size: 0.725rem;
+  font-weight: 400;
+}
+@media (min-width: 992px) {/*large*/
+  .specialOffers-time{
+    text-wrap: nowrap;
+  }
+}
+.specialOffers-price{
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 4px 0px;
+  color: #BEEE11;
+}
+.specialOffers-price::after{
+  color: #BEEE11;
+  background-color: #4c6b22;
+  margin: 3px;
+  padding: 4px;
+}
+/* .specialOffers-price::before{
+  color: #41423d;
+  font-weight: 400;
+  text-decoration: line-through;
+} */
+
+.nawet-80.specialOffers-price::after{
+  content: "Nawet do -80%";
+  margin: 3px 0px;
+}
+.minus-20.specialOffers-price::after{
+  content: "-20%";
+}
+.minus-33.specialOffers-price::after{
+  content: "-33%";
+}
+.minus-40.specialOffers-price::after{
+  content: "-40%";
+}
+.minus-50.specialOffers-price::after{
+  content: "-50%";
+}
+.minus-60.specialOffers-price::after{
+  content: "-60%";
+}
+.minus-67.specialOffers-price::after{
+  content: "-67%";
+}
+.minus-75.specialOffers-price::after{
+  content: "-75%";
+}
+.minus-90.specialOffers-price::after{
+  content: "-90%";
+}
