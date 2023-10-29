@@ -501,7 +501,7 @@ body {
 
 
 .featured{
-  margin: 10vh 0px;
+  margin: 8vh 0px;
 }
 .featured .carousel{
   width: 80%;
@@ -570,11 +570,23 @@ body {
   color: #ffffff;
 }
 
+.event-banner{
+  margin: 3vh;
+}
+.event-banner img{
+  width: 74.5%;
+  box-shadow: 0px 0px 15px 6px rgb(45, 58, 77)
+}
+.event-banner img:hover{
+  box-shadow: 0px 0px 15px 6px rgba(26, 160, 255, 0.589);
+}
+
+
 
 
 
 .specialOffers{
-  margin: 18vh 0px;
+  margin: 5vh 0px;
 }
 .specialOffers .carousel{
   width: 75%;
@@ -658,9 +670,25 @@ body {
 }
 
 
+.hardware-banner{
+  margin: 9vh;
+}
+.hardware-banner .row{
+  width: 74%;
+}
+.hardware-banner img{
+  box-shadow: 0px 0px 15px 6px rgb(45, 58, 77);
+  height: 100%;
+}
+.hardware-banner img:hover{
+  box-shadow: 0px 0px 15px 6px rgba(26, 160, 255, 0.589);
+}
+
+
+
 
 .categories {
-  margin: 10vh 0px;
+  margin: 6vh 0px;
 }
 .categories .carousel{
   width: 75%;
