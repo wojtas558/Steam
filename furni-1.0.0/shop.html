@@ -12,7 +12,11 @@
 	<!-- Bootstrap CSS -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
 	<link href="css/tiny-slider.css" rel="stylesheet">
+	<!-- ???????????????????????????????????????????????????????????????????????????????????????????????????????? -->
+
+	<!-- Custom CSS -->
 	<link href="css/style.css" rel="stylesheet">
 	<title>Steam</title>
 </head>
@@ -55,182 +59,194 @@
 					<div class="carousel-inner">
 						<div class="carousel-item active">
 							<div class="container-fluid">
-								<div class="row g-0 justify-content-center">
-									<div class="featured-capsule col-8 p-auto">
-										<img src="img/featured/game1/capsule.jpg" alt="game1" class="img-fluid">
-									</div>
-									<div class="featured-info col-4 justify-content-center d-flex flex-column">
-										<div class="my-auto">
-											<div class="featured-title">
-												Cyberpunk 2077
-											</div>
-											<div class="featured-screenshots">
-												<div class="row row-cols-2 g-2">
-													<div class="w-50 d-block"><img src="img/featured/game1/screenshot1.jpg" alt="ss1" class="w-100"></div>
-													<div class="w-50 d-block"><img src="img/featured/game1/screenshot2.jpg" alt="ss2" class="w-100"></div>
-													<div class="w-50 d-block"><img src="img/featured/game1/screenshot3.jpg" alt="ss3" class="w-100"></div>
-													<div class="w-50 d-block"><img src="img/featured/game1/screenshot4.jpg" alt="ss4" class="w-100"></div>
+								<a href="#">
+									<div class="row g-0 justify-content-center">
+										<div class="featured-capsule col-8 p-auto">
+											<img src="img/featured/game1/capsule.jpg" alt="game1" class="img-fluid" id="s1capsule">
+										</div>
+										<div class="featured-info col-4 justify-content-center d-flex flex-column">
+											<div class="my-auto">
+												<div class="featured-title">
+													Cyberpunk 2077
+												</div>
+												<div class="featured-screenshots" onmouseleave="changeCapsuleBack(1)">
+													<div class="row row-cols-2 g-2">
+														<div class="w-50 d-block"><img src="img/featured/game1/screenshot1.jpg" alt="ss1" class="w-100" onmouseover="showScreenshot(1, 1)"></div>
+														<div class="w-50 d-block"><img src="img/featured/game1/screenshot2.jpg" alt="ss2" class="w-100" onmouseover="showScreenshot(1, 2)"></div>
+														<div class="w-50 d-block"><img src="img/featured/game1/screenshot3.jpg" alt="ss3" class="w-100" onmouseover="showScreenshot(1, 3)"></div>
+														<div class="w-50 d-block"><img src="img/featured/game1/screenshot4.jpg" alt="ss4" class="w-100" onmouseover="showScreenshot(1, 4)"></div>
+													</div>
+												</div>
+												<div class="featured-reasons">
+													<span class="d-block mt-2">Już dostępne</span>
+													<span class="badge bg-secondary d-inline d-lg-none d-xl-inline">Bestseller</span>
 												</div>
 											</div>
-											<div class="featured-reasons">
-												<span class="d-block mt-2">Już dostępne</span>
-												<span class="badge bg-secondary d-inline d-lg-none d-xl-inline">Bestseller</span>
-											</div>
-										</div>
-										<div class="featured-bottom">
-											<div class="featured-price d-inline">
-												199,99zł
-											</div>
-											<div class="featured-platforms d-inline float-end">
-												<i class="fa-brands fa-windows fa-xl"></i>
+											<div class="featured-bottom">
+												<div class="featured-price d-inline">
+													199,99zł
+												</div>
+												<div class="featured-platforms d-inline float-end">
+													<i class="fa-brands fa-windows fa-xl"></i>
+												</div>
 											</div>
 										</div>
 									</div>
-								</div>
+								</a>
 							</div>
 						</div>
 						<div class="carousel-item">
 							<div class="container-fluid">
-								<div class="row g-0 justify-content-center">
-									<div class="featured-capsule col-8 p-auto">
-										<img src="img/featured/game2/capsule.jpg" alt="game2" class="img-fluid">
-									</div>
-									<div class="featured-info col-4 justify-content-center d-flex flex-column">
-										<div class="my-auto">
-											<div class="featured-title">
-												Cities: Skylines II
-											</div>
-											<div class="featured-screenshots">
-												<div class="row row-cols-2 g-2">
-													<div class="w-50 d-block"><img src="img/featured/game2/screenshot1.jpg" alt="ss1" class="w-100"></div>
-													<div class="w-50 d-block"><img src="img/featured/game2/screenshot2.jpg" alt="ss2" class="w-100"></div>
-													<div class="w-50 d-block"><img src="img/featured/game2/screenshot3.jpg" alt="ss3" class="w-100"></div>
-													<div class="w-50 d-block"><img src="img/featured/game2/screenshot4.jpg" alt="ss4" class="w-100"></div>
+								<a href="#">
+									<div class="row g-0 justify-content-center">
+										<div class="featured-capsule col-8 p-auto">
+											<img src="img/featured/game2/capsule.jpg" alt="game2" class="img-fluid" id="s2capsule">
+										</div>
+										<div class="featured-info col-4 justify-content-center d-flex flex-column">
+											<div class="my-auto">
+												<div class="featured-title" style="font-size: 19px;">
+													Euro Truck Simulator 2
+												</div>
+												<div class="featured-screenshots" onmouseleave="changeCapsuleBack(2)">
+													<div class="row row-cols-2 g-2">
+														<div class="w-50 d-block"><img src="img/featured/game2/screenshot1.jpg" alt="ss1" class="w-100" onmouseover="showScreenshot(2, 1)"></div>
+														<div class="w-50 d-block"><img src="img/featured/game2/screenshot2.jpg" alt="ss2" class="w-100" onmouseover="showScreenshot(2, 2)"></div>
+														<div class="w-50 d-block"><img src="img/featured/game2/screenshot3.jpg" alt="ss3" class="w-100" onmouseover="showScreenshot(2, 3)"></div>
+														<div class="w-50 d-block"><img src="img/featured/game2/screenshot4.jpg" alt="ss4" class="w-100" onmouseover="showScreenshot(2, 4)"></div>
+													</div>
+												</div>
+												<div class="featured-reasons">
+													<span class="d-block mt-2" style="font-size: 81%;">Nowa zawartość już dostępna</span>
+													<span class="badge bg-secondary d-inline d-lg-none d-xl-inline">Bestseller</span>
 												</div>
 											</div>
-											<div class="featured-reasons">
-												<span class="d-block mt-2">Już dostępne</span>
-												<span class="badge bg-secondary d-inline d-lg-none d-xl-inline">Bestseller</span>
+											<div class="featured-bottom">
+												<div class="minus-75 featured-price d-inline discount">
+													19,99zł
+												</div>
+												<div class="featured-platforms d-inline float-end">
+													<i class="fa-brands fa-windows fa-xl"></i>
+													<i class="fa-brands fa-apple fa-xl"></i>
+													<i class="fa-brands fa-steam fa-xl"></i>
+												</div>
 											</div>
-										</div>
-										<div class="featured-bottom">
-											<div class="featured-price d-inline">
-												231,99zł
-											</div>
-											<div class="featured-platforms d-inline float-end">
-												<i class="fa-brands fa-windows fa-xl"></i>
-											</div>
-										</div>
-									</div>									
-								</div>
+										</div>									
+									</div>
+								</a>
 							</div>
 						</div>
 						<div class="carousel-item">
 							<div class="container-fluid">
-								<div class="row g-0 justify-content-center">
-									<div class="featured-capsule col-8 p-auto">
-										<img src="img/featured/game3/capsule.jpg" alt="game3" class="img-fluid">
-									</div>
-									<div class="featured-info col-4 justify-content-center d-flex flex-column">
-										<div class="my-auto">
-											<div class="featured-title">
-												EA SPORTS FC™ 24
-											</div>
-											<div class="featured-screenshots">
-												<div class="row row-cols-2 g-2">
-													<div class="w-50 d-block"><img src="img/featured/game3/screenshot1.jpg" alt="ss1" class="w-100"></div>
-													<div class="w-50 d-block"><img src="img/featured/game3/screenshot2.jpg" alt="ss2" class="w-100"></div>
-													<div class="w-50 d-block"><img src="img/featured/game3/screenshot3.jpg" alt="ss3" class="w-100"></div>
-													<div class="w-50 d-block"><img src="img/featured/game3/screenshot4.jpg" alt="ss4" class="w-100"></div>
+								<a href="#">
+									<div class="row g-0 justify-content-center">
+										<div class="featured-capsule col-8 p-auto">
+											<img src="img/featured/game3/capsule.jpg" alt="game3" class="img-fluid" id="s3capsule">
+										</div>
+										<div class="featured-info col-4 justify-content-center d-flex flex-column">
+											<div class="my-auto">
+												<div class="featured-title">
+													EA SPORTS FC™ 24
+												</div>
+												<div class="featured-screenshots" onmouseleave="changeCapsuleBack(3)">
+													<div class="row row-cols-2 g-2">
+														<div class="w-50 d-block"><img src="img/featured/game3/screenshot1.jpg" alt="ss1" class="w-100" onmouseover="showScreenshot(3, 1)"></div>
+														<div class="w-50 d-block"><img src="img/featured/game3/screenshot2.jpg" alt="ss2" class="w-100" onmouseover="showScreenshot(3, 2)"></div>
+														<div class="w-50 d-block"><img src="img/featured/game3/screenshot3.jpg" alt="ss3" class="w-100" onmouseover="showScreenshot(3, 3)"></div>
+														<div class="w-50 d-block"><img src="img/featured/game3/screenshot4.jpg" alt="ss4" class="w-100" onmouseover="showScreenshot(3, 4)"></div>
+													</div>
+												</div>
+												<div class="featured-reasons">
+													<span class="d-block mt-2">Już dostępne</span>
+													<span class="badge bg-secondary d-inline d-lg-none d-xl-inline">Bestseller</span>
 												</div>
 											</div>
-											<div class="featured-reasons">
-												<span class="d-block mt-2">Już dostępne</span>
-												<span class="badge bg-secondary d-inline d-lg-none d-xl-inline">Bestseller</span>
-											</div>
-										</div>
-										<div class="featured-bottom">
-											<div class="featured-price d-inline">
-												319,90zł
-											</div>
-											<div class="featured-platforms d-inline float-end">
-												<i class="fa-brands fa-windows fa-xl"></i>
+											<div class="featured-bottom">
+												<div class="featured-price d-inline">
+													319,90zł
+												</div>
+												<div class="featured-platforms d-inline float-end">
+													<i class="fa-brands fa-windows fa-xl"></i>
+												</div>
 											</div>
 										</div>
 									</div>
-								</div>
+								</a>
 							</div>
 						</div>
 						<div class="carousel-item">
 							<div class="container-fluid">
-								<div class="row g-0 justify-content-center">
-									<div class="featured-capsule col-8 p-auto">
-										<img src="img/featured/game4/capsule.jpg" alt="game4" class="img-fluid">
-									</div>
-									<div class="featured-info col-4 justify-content-center d-flex flex-column">
-										<div class="my-auto">
-											<div class="featured-title">
-												Diablo® IV
-											</div>
-											<div class="featured-screenshots">
-												<div class="row row-cols-2 g-2">
-													<div class="w-50 d-block"><img src="img/featured/game4/screenshot1.jpg" alt="ss1" class="w-100"></div>
-													<div class="w-50 d-block"><img src="img/featured/game4/screenshot2.jpg" alt="ss2" class="w-100"></div>
-													<div class="w-50 d-block"><img src="img/featured/game4/screenshot3.jpg" alt="ss3" class="w-100"></div>
-													<div class="w-50 d-block"><img src="img/featured/game4/screenshot4.jpg" alt="ss4" class="w-100"></div>
+								<a href="#">
+									<div class="row g-0 justify-content-center">
+										<div class="featured-capsule col-8 p-auto">
+											<img src="img/featured/game4/capsule.jpg" alt="game4" class="img-fluid" id="s4capsule">
+										</div>
+										<div class="featured-info col-4 justify-content-center d-flex flex-column">
+											<div class="my-auto">
+												<div class="featured-title">
+													Diablo® IV
+												</div>
+												<div class="featured-screenshots" onmouseleave="changeCapsuleBack(4)">
+													<div class="row row-cols-2 g-2">
+														<div class="w-50 d-block"><img src="img/featured/game4/screenshot1.jpg" alt="ss1" class="w-100" onmouseover="showScreenshot(4, 1)"></div>
+														<div class="w-50 d-block"><img src="img/featured/game4/screenshot2.jpg" alt="ss2" class="w-100" onmouseover="showScreenshot(4, 2)"></div>
+														<div class="w-50 d-block"><img src="img/featured/game4/screenshot3.jpg" alt="ss3" class="w-100" onmouseover="showScreenshot(4, 3)"></div>
+														<div class="w-50 d-block"><img src="img/featured/game4/screenshot4.jpg" alt="ss4" class="w-100" onmouseover="showScreenshot(4, 4)"></div>
+													</div>
+												</div>
+												<div class="featured-reasons">
+													<span class="d-block mt-2">Dodaj do listy życzeń</span>
+													<span class="badge bg-secondary d-inline d-lg-none d-xl-inline">Bestseller</span>
 												</div>
 											</div>
-											<div class="featured-reasons">
-												<span class="d-block mt-2">Dodaj do listy życzeń</span>
-												<span class="badge bg-secondary d-inline d-lg-none d-xl-inline">Bestseller</span>
-											</div>
-										</div>
-										<div class="featured-bottom">
-											<div class="featured-price d-inline">
-												349,00zł
-											</div>
-											<div class="featured-platforms d-inline float-end">
-												<i class="fa-brands fa-windows fa-xl"></i>
+											<div class="featured-bottom">
+												<div class="featured-price d-inline">
+													349,00zł
+												</div>
+												<div class="featured-platforms d-inline float-end">
+													<i class="fa-brands fa-windows fa-xl"></i>
+												</div>
 											</div>
 										</div>
 									</div>
-								</div>
+								</a>
 							</div>
 						</div>
 						<div class="carousel-item">
 							<div class="container-fluid">
-								<div class="row g-0 justify-content-center">
-									<div class="featured-capsule col-8 p-auto">
-										<img src="img/featured/game5/capsule.jpg" alt="game5" class="img-fluid">
-									</div>
-									<div class="featured-info col-4 justify-content-center d-flex flex-column">
-										<div class="my-auto">
-											<div class="featured-title">
-												Red Dead Redemption 2
-											</div>
-											<div class="featured-screenshots">
-												<div class="row row-cols-2 g-2">
-													<div class="w-50 d-block"><img src="img/featured/game5/screenshot1.jpg" alt="ss1" class="w-100"></div>
-													<div class="w-50 d-block"><img src="img/featured/game5/screenshot2.jpg" alt="ss2" class="w-100"></div>
-													<div class="w-50 d-block"><img src="img/featured/game5/screenshot3.jpg" alt="ss3" class="w-100"></div>
-													<div class="w-50 d-block"><img src="img/featured/game5/screenshot4.jpg" alt="ss4" class="w-100"></div>
+								<a href="#">
+									<div class="row g-0 justify-content-center">
+										<div class="featured-capsule col-8 p-auto">
+											<img src="img/featured/game5/capsule.jpg" alt="game5" class="img-fluid" id="s5capsule">
+										</div>
+										<div class="featured-info col-4 justify-content-center d-flex flex-column">
+											<div class="my-auto">
+												<div class="featured-title" style="font-size: 17.5px">
+													Red Dead Redemption 2
+												</div>
+												<div class="featured-screenshots" onmouseleave="changeCapsuleBack(5)">
+													<div class="row row-cols-2 g-2">
+														<div class="w-50 d-block"><img src="img/featured/game5/screenshot1.jpg" alt="ss1" class="w-100" onmouseover="showScreenshot(5, 1)"></div>
+														<div class="w-50 d-block"><img src="img/featured/game5/screenshot2.jpg" alt="ss2" class="w-100" onmouseover="showScreenshot(5, 2)"></div>
+														<div class="w-50 d-block"><img src="img/featured/game5/screenshot3.jpg" alt="ss3" class="w-100" onmouseover="showScreenshot(5, 3)"></div>
+														<div class="w-50 d-block"><img src="img/featured/game5/screenshot4.jpg" alt="ss4" class="w-100" onmouseover="showScreenshot(5, 4)"></div>
+													</div>
+												</div>
+												<div class="featured-reasons">
+													<span class="d-block mt-2">Już dostępne</span>
+													<span class="badge bg-secondary d-inline d-lg-none d-xl-inline">Bestseller</span>
 												</div>
 											</div>
-											<div class="featured-reasons">
-												<span class="d-block mt-2">Już dostępne</span>
-												<span class="badge bg-secondary d-inline d-lg-none d-xl-inline">Bestseller</span>
-											</div>
-										</div>
-										<div class="featured-bottom">
-											<div class="featured-price d-inline">
-												249,90zł
-											</div>
-											<div class="featured-platforms d-inline float-end">
-												<i class="fa-brands fa-windows fa-xl"></i>
+											<div class="featured-bottom">
+												<div class="minus-60 featured-price d-inline discount">
+													99,96zł
+												</div>
+												<div class="featured-platforms d-inline float-end">
+													<i class="fa-brands fa-windows fa-xl"></i>
+												</div>
 											</div>
 										</div>
 									</div>
-								</div>
+								</a>
 							</div>
 						</div>
 					</div>
@@ -476,6 +492,7 @@
 		</div>
 	</div>
 	<!-- End specialOffers --> 
+	<!-- Start hardware banner -->
 	<div class="hardware-banner">
 		<div class="container">
 			<div class="row g-0 justify-content-center mx-auto">
@@ -492,6 +509,7 @@
 			</div>
 		</div>
 	</div>
+	<!-- End hardware -->
 	<!-- Start categories Section -->
 	<div class="categories">
 		<div class="container">
@@ -612,7 +630,7 @@
 			</div>
 		</div>
 	</div>
-	<!-- End categories section --> 
+	<!-- End categories --> 
 	<!-- Start footer Section -->
 	<footer class="footer-section">
 		<div class="container">
@@ -637,9 +655,10 @@
 			</div>
 		</div>
 	</footer>
-	<!-- End footer Section -->	
+	<!-- End footer -->	
 <script src="js/bootstrap.bundle.min.js"></script>
 <script src="js/tiny-slider.js"></script>
 <script src="js/custom.js"></script>
+<script src="js/js.js"></script>
 </body>
 </html>

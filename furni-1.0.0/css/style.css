@@ -503,6 +503,9 @@ body {
 .featured{
   margin: 8vh 0px;
 }
+.featured a{
+  text-decoration: none;
+}
 .featured .carousel{
   width: 80%;
 }
@@ -544,14 +547,20 @@ body {
   background-size: 130%;
   padding: 12px;
   max-height: 353px;
+  font-weight: 300;
+
 }
 .featured-title{
   color: #ffffff;
   font-size: 21px;
   padding: 12px 0px;
+  font-weight: 600;
 }
-.featured-screenshots{
-
+.featured-screenshots .w-50{
+  opacity: 0.65;
+}
+.featured-screenshots .w-50:hover{
+  opacity: 1;
 }
 .featured-reasons{
   color: #ffffff;
@@ -568,10 +577,22 @@ body {
 }
 .featured-price{
   color: #ffffff;
+  font-weight: 400;
+}
+.featured-price.discount{  
+  color: #BEEE11;
+}
+.featured-platforms i{
+  padding: 0px 3px;
 }
 
+
+
+
+
+
 .event-banner{
-  margin: 3vh;
+  margin: 3vh 0px;
 }
 .event-banner img{
   width: 74.5%;
@@ -580,7 +601,11 @@ body {
 .event-banner img:hover{
   box-shadow: 0px 0px 15px 6px rgba(26, 160, 255, 0.589);
 }
-
+@media (min-width: 1400px) {/*Extra Extra large*/
+  .event-banner img{
+    width: 74.5%;
+  }
+}
 
 
 
@@ -610,7 +635,7 @@ body {
 .specialOffers-reason{
   color: #FFFFFF;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .specialOffers-time{
   color: #acdbf5;
@@ -628,11 +653,10 @@ body {
   margin: 4px 0px;
   color: #BEEE11;
 }
-.specialOffers-price::after{
-  color: #BEEE11;
+.specialOffers-price::after, .featured-price::after{
   background-color: #4c6b22;
   margin: 3px;
-  padding: 4px;
+  padding: 2px;
 }
 /* .specialOffers-price::before{
   color: #41423d;
@@ -644,41 +668,42 @@ body {
   content: "Nawet do -80%";
   margin: 3px 0px;
 }
-.minus-20.specialOffers-price::after{
+.minus-20.specialOffers-price::after, .minus-20.featured-price::after{
   content: "-20%";
 }
-.minus-33.specialOffers-price::after{
+.minus-33.specialOffers-price::after, .minus-33.featured-price::after{
   content: "-33%";
 }
-.minus-40.specialOffers-price::after{
+.minus-40.specialOffers-price::after, .minus-40.featured-price::after{
   content: "-40%";
 }
-.minus-50.specialOffers-price::after{
+.minus-50.specialOffers-price::after, .minus-50.featured-price::after{
   content: "-50%";
 }
-.minus-60.specialOffers-price::after{
+.minus-60.specialOffers-price::after, .minus-60.featured-price::after{
   content: "-60%";
 }
-.minus-67.specialOffers-price::after{
+.minus-67.specialOffers-price::after, .minus-67.featured-price::after{
   content: "-67%";
 }
-.minus-75.specialOffers-price::after{
+.minus-75.specialOffers-price::after, .minus-75.featured-price::after{
   content: "-75%";
 }
-.minus-90.specialOffers-price::after{
+.minus-90.specialOffers-price::after, .minus-90.featured-price::after{
   content: "-90%";
 }
 
 
 .hardware-banner{
-  margin: 9vh;
+  margin: 9vh 0px;
 }
 .hardware-banner .row{
-  width: 74%;
+  width: 74.5%;
 }
 .hardware-banner img{
   box-shadow: 0px 0px 15px 6px rgb(45, 58, 77);
   height: 100%;
+  width: 100%;
 }
 .hardware-banner img:hover{
   box-shadow: 0px 0px 15px 6px rgba(26, 160, 255, 0.589);
@@ -695,6 +720,13 @@ body {
 }
 .categories .carousel-control-prev{
   left: -6vw;
+}
+.categories .carousel-item .col-3{ 
+  box-sizing: border-box;  
+  transition: filter 0.4s;
+}
+.categories .carousel-item .col-3:hover{ 
+  filter: brightness(1.33);
 }
 .categories .carousel-control-next{
   right: -6vw;
