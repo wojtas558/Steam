@@ -1,8 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap") OLD FONT */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800&display=swap');
 body {
   overflow-x: hidden;
   /* position: relative; */
-  font-family: "Inter", sans-serif;
+  font-family: "Barlow", sans-serif;
   font-weight: 400;
   line-height: 28px;
   color: #6a6a6a;
@@ -198,12 +199,15 @@ body {
   display: none;
   text-decoration: none; 
   color:  #d1d1d15b;
+  font-weight: 500;
+  letter-spacing: 1.4px;
+  word-spacing: 3px;
 }
 .main .container-fluid{ /*learn more container */
   margin-top: 15vh;
 }
 .learn-more:hover{
-  color:  #d1d1d15b;
+  color:  #d1d1d183;
 }
 @media (min-width: 768px) {
   .learn-more{
@@ -350,9 +354,9 @@ body {
 }
 .offer .text{
   padding: 15px 0px;
-  font-size: 18px;
+  font-size: 20px;
   color: #ffffff;
-  font-weight: 300;
+  font-weight: 400;
 }
 .offer .link{
   font-size: 18px;
@@ -416,7 +420,7 @@ body {
 }
 .features .header{
   font-weight: 700;
-  font-size: 23px;
+  font-size: 29px;
   line-height: 60px;
   color: #ffffff;
 }
@@ -424,13 +428,13 @@ body {
   padding: 12px 0px;
   font-size: 16px;
   color: #ffffff;
-  font-weight: 300;
+  font-weight: 400;
 }
 .features .title{
   margin: 50px 0px;
 }
 .features .title .header{
-  font-weight: 700;
+  font-weight: 600;
   font-size: 60px;
   line-height: 60px;
   color: #ffffff;
@@ -542,7 +546,7 @@ body {
   /* min-height: 320px; */
 }
 .featured-info{
-  background-image: url("/furni-1.0.0/img/featured/background.jpg");
+  background-image: url("/img/featured/background.jpg");
   background-repeat: no-repeat;
   background-size: 130%;
   padding: 12px;
@@ -569,6 +573,7 @@ body {
 }
 .featured-reasons .badge{
   font-weight: 500;
+  padding: 4px;
 }
 .featured-reasons{  
 }
@@ -628,7 +633,7 @@ body {
 .specialOffers .card-body{
   position: absolute;
   bottom: 0px;
-  background-image: url("/furni-1.0.0/img/featured/background.jpg");
+  background-image: url("/img/featured/background.jpg");
   /* background-color: #1c2024; */
   /* background: linear-gradient(135deg, #25303dcc 15%, rgba(0, 0, 0, 0) 75%); */
 }
@@ -670,6 +675,9 @@ body {
 }
 .minus-20.specialOffers-price::after, .minus-20.featured-price::after{
   content: "-20%";
+}
+.minus-30.specialOffers-price::after, .minus-30.featured-price::after{
+  content: "-30%";
 }
 .minus-33.specialOffers-price::after, .minus-33.featured-price::after{
   content: "-33%";

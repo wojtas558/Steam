@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="pl">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon shortcut" href="img/favicon.png">
+
+	<!-- Bootstrap CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+	<!-- Custom CSS -->
+	<link href="css/style.css" rel="stylesheet">
+
+	<title>Steam</title>
+</head>
+<body>
+	<!-- Start navbar Section -->
+	<nav class="custom-navbar navbar navbar navbar-expand-lg navbar-dark" arial-label="Steam navigation bar">
+		<div class="container">
+			<a class="navbar-brand text-uppercase" href="index.html">
+				<i class="fa-brands fa-steam px-3"></i>Steam
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsSteam" aria-controls="navbarsSteam" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span><!-- --------------- zmienic color ikonki czyli calosc togglera -------------- -->
+			</button>
+			<div class="collapse navbar-collapse" id="navbarsSteam">
+				<ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+					<li class="nav-item"><a class="nav-link" href="index.html">Informacje</a></li>
+					<li class="nav-item active"><a class="nav-link" href="shop.html">Sklep</a></li>
+					<li class="nav-item"><a class="nav-link" href="about.html">Społczeność</a></li>
+				</ul>
+				<!-- <ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
+					<li><a class="nav-link" href="cart.html"><img src="img/cart.svg"></a></li>
+					<li><a class="nav-link" href="#/"><img src="img/user.svg"></a></li>
+				</ul> -->
+			</div>
+		</div>
+	</nav>
+	<!-- End navbar --> 
+
+    <!-- Start presentation Section -->
+    <div class="presentation">
+        <div class="container-lg">
+            <nav class="d-none d-sm-block">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#/">Wszystkie gry</a></li>
+                    <li class="breadcrumb-item"><a href="#/">Gatunek: Przygodowe</a></li>
+                    <li class="breadcrumb-item active">Dziedzictwo Hogwartu</li>
+                </ol>
+            </nav>
+            <div class="row d-none d-sm-flex">
+                <div class="col-6">
+                    <div class="float-start d-block">Dziedzictwo Hogwartu</div>
+                </div>
+                <div class="col-6">
+                    <div class="float-end d-block">Centrum społeczności</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-4 order-lg-1">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-lg-12">
+                            <img src="img/main.jpg" alt="" class="img-fluid mx-auto d-block w-100">
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-12">
+                            <div class="col-12 d-sm-none order-1">
+                                <strong>Dziedzictwo Hogwartu</strong>
+                            </div>
+                            <div class="col">
+                                <span>Dziedzictwo Hogwartu to wciągająca fabularna gra akcji z otwartym światem. Przejmij kontrolę i bądź w samym centrum swojej przygody w świecie magii.</span>
+                            </div>
+                            <div class="col">
+                                <span>Ostatnie recenzje</span><br>
+                                <span>Wszystkie recenzje</span>
+                            </div>
+                            <div class="col">
+                                <span>Producent wydawca</span><br>
+                                <span>Wydawca</span><br>
+                                <span>Data wydania</span>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            Popularne tagi dla tego produktu
+                        </div>
+                    </div>
+                </div>
+                <div class="col-0 col-lg-8">
+                    <div id="presentationCarousel" class="carousel slide carousel-fade" data-bs-interval="false">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#presentationCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Image 1"><img src="img/games/game1.jpg" alt="" class="img-fluid d-block"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/featured/game1/capsule.jpg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#presentationCarousel" data-bs-slide="prev">
+                            <span class="" aria-hidden="true"><i class="fa-solid fa-angle-left fa-2xl" style="color:rgb(0, 0, 0)"></i></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#presentationCarousel" data-bs-slide="next">
+                            <span class="" aria-hidden="true"><i class="fa-solid fa-angle-right fa-2xl" style="color:rgb(0, 0, 0)"></i></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+	<!-- End presentation --> 
+    
+    <!-- Start footer Section -->
+	<footer class="footer-section">
+		<div class="container">
+			<div class="text-center disclosures py-3 w-75 mx-auto">
+				© 2023 Valve Corporation. Wszelkie prawa zastrzeżone. Wszystkie znaki handlowe są własnością ich prawnych właścicieli w Stanach Zjednoczonych i innych krajach. Ceny zawierają podatek VAT (jeśli ma zastosowanie). 
+			</div>
+			<hr class="border border-1 m-0">
+			<div class="text-center links py-3">
+				<a href="#/">Polityka prywatności</a><span class="mx-2">|</span><a href="#/">Informacje prawne</a><span class="mx-2">|</span><a href="#/">Umowa użytkownika Steam</a><span class="mx-2">|</span><a href="#/">Zwroty pieniędzy</a><span class="mx-2">|</span><a href="#/">Ciasteczka</a>
+			</div>
+			<hr class="border border-1 m-0">
+			<div class="text-center socials py-4">
+				<div class="social d-inline px-5">
+					<a href="#/"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+				</div>
+				<div class="social d-inline px-5">
+					<a href="#/"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+				</div>
+				<div class="social d-inline px-5">
+					<a href="#/"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- End footer -->	
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/js.js"></script>
+</body>
+</html>
