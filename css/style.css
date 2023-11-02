@@ -2,17 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800&display=swap');
 body {
   overflow-x: hidden;
-  /* position: relative; */
   font-family: "Barlow", sans-serif;
   font-weight: 400;
   line-height: 28px;
-  color: #6a6a6a;
+  color: #ffffff;
   font-size: 14px;
   background-color: #1c2024;  
-}
-
-.fa-brands{
-  color: #b1b6b9;
 }
 
 /* a {
@@ -542,9 +537,9 @@ body {
 .featured-capsule{
   max-width: 616px;
 }
-.featured-capsule .img-fluid{
-  /* min-height: 320px; */
-}
+/* .featured-capsule .img-fluid{
+  min-height: 320px;
+} */
 .featured-info{
   background-image: url("/img/featured/background.jpg");
   background-repeat: no-repeat;
@@ -575,14 +570,15 @@ body {
   font-weight: 500;
   padding: 4px;
 }
-.featured-reasons{  
-}
 .featured-bottom{
   margin-top: auto;
 }
 .featured-price{
   color: #ffffff;
   font-weight: 400;
+}
+.featured .fa-brands{
+  color: #ffffff;
 }
 .featured-price.discount{  
   color: #BEEE11;
@@ -781,4 +777,157 @@ body {
   font-size: 20px;
   font-weight: 600;
   color: #ffffff;
+}
+
+
+
+
+/*               */
+/* shop.html           */
+/*                     */
+
+
+.presentation{
+  margin-top: 3vh;
+  margin-bottom: 14vh;
+}
+@media (min-width: 992px) {/*large*/
+  .presentation{
+    margin-bottom: 2vh;
+  }
+}
+@media (min-width: 1400px) {/*XX large*/
+  .presentation{
+    margin-bottom: 15vh;
+  }
+}
+.presentation .breadcrumb{
+  font-weight: 500;
+}
+.presentation .breadcrumb a{
+  color: #ffffff38;
+  text-decoration: none;
+}
+.presentation .breadcrumb .active{
+  color: #ffffff94;
+  text-decoration: none;
+}
+.presentation .breadcrumb .breadcrumb-item:hover, .presentation .breadcrumb a:hover{
+  color: #ffffff;
+
+}
+.presentation .title-row{
+  margin: 1.5vh 0px;
+}
+.presentation .btn{
+  padding: 10px;
+  background-color: #316282aa;
+  color: #1ed2ff;
+  transition: all 0.5s ease;
+}
+.presentation .btn:hover{
+  background-color: #1ed2ffce;
+  color: #ffffff;
+}
+.presentation .title{
+  font-size: 34px;
+  font-weight: 700;
+  letter-spacing: 1.25px;
+  padding: 0px;
+  margin: 0px;
+}
+.presentation .information{
+  margin: 0.7vh 0px;
+}
+.presentation .producent, .presentation .publisher, .presentation .release-date{
+  width: 125px;
+  text-wrap: nowrap;
+  font-size: 15px;
+  color: #888888;
+}
+.presentation .information a, .presentation .information a, .presentation .information .date{
+  color: #ffffffbb;
+  font-weight: 500;
+  font-size: 16px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.presentation .information a, .presentation .information a{
+  text-decoration: none;
+  color:  #1ed2ff;
+}
+.description{
+  line-height: 140%;
+  font-size: 15px;
+  margin: 0.7vh 0px;
+}
+.presentation .reviews{
+  text-wrap: nowrap;
+  margin: 0.7vh 0px;
+}
+.presentation .reviews .review-type{
+  width: 125px;
+  color: #888888;
+  font-size: 15px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.presentation .reviews .review-text{
+  font-weight: 500;
+  font-size: 16px;
+  color: #1ed2ff;  
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.presentation .reviews .review-number{
+  color: #ffffff7e;
+  margin: 0px 5px;
+}
+.presentation .reviews .d-sm-none, .presentation .tags .d-sm-none{
+  font-size: x-large;
+  font-weight: 600;
+  margin-bottom: 0.7vh;
+}
+.presentation .tags .d-sm-block{
+  color: #888888;
+  font-size: 15px;
+}
+.presentation .tags .badge{
+  background-color: #316282aa;
+  color: #1ed2ff;
+  font-size: 15px;
+  transition: all 0.5s ease;
+}
+.presentation .tags .badge:hover{
+  background-color: #1ed2ff;
+  color: #ffffff;
+  font-size: 15px;
+}
+#presentationCarousel .carousel-indicators{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#presentationCarousel .carousel-control-prev{
+  left: -3vw;
+}
+#presentationCarousel .carousel-control-next{
+  right: -3vw;
+}
+#presentationCarousel .carousel-indicators [data-bs-target] {
+  width: 20%;
+  height: 0px;
+}
+#presentationCarousel .carousel-indicators img{  
+  border-radius: 4px;
+  transition: all 0.5s;
+}
+#presentationCarousel .carousel-indicators .active img{
+  border: 2px #ffffff solid;
+}
+#presentationCarousel .carousel-item img{
+  width: 100%;
 }
