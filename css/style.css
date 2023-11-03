@@ -725,6 +725,9 @@ body {
 .categories .carousel-control-prev{
   left: -6vw;
 }
+.categories .carousel-indicators{
+  top: 92%;
+}
 .categories .carousel-item .col-3{ 
   box-sizing: border-box;  
   transition: filter 0.4s;
@@ -930,4 +933,138 @@ body {
 }
 #presentationCarousel .carousel-item img{
   width: 100%;
+}
+
+
+
+
+.info{
+  margin: 2vh 0px;
+}
+.info .buy{
+  padding: 20px;
+  border-radius: 6px;
+  background: linear-gradient(-60deg, rgba(226, 244, 255, 0.3) 5%, rgba(84, 107, 115, 0.3) 95%);;
+  overflow: visible;
+  margin-bottom: 3vh;
+}
+.info .buy .label{
+  font-size: 20px;
+  font-weight: 500;
+}
+.info .buy .action{
+  font-size: 15px;
+  font-weight: 500;
+  background-color: #121518;
+  width: max-content;
+  border-radius: 3px;
+  padding: 3px 4px 3px 0px;
+  position: absolute;
+  right: 5%;
+  bottom: -35%;
+}
+.info .buy .action .price{
+  padding: 4px 10px;
+  
+}
+.info .buy .action button{
+  background-color: #c8ff00a4;
+  color: #292727;
+  padding: 4px 9px;
+  border-radius: 3px;
+  font-weight: 600;
+  transition: all 0.4s;
+  border: 0px;
+}
+.info .buy .action button:hover{
+  background-color: #c8ff00;
+}
+
+
+.info .about{
+  font-size: 15px;
+  line-height: 150%;
+  color: #ffffffc5;
+}
+.info .about img{
+  width: 100%;
+  margin: 2.5vh 0px;
+}
+.info .about hr{
+  height: 2px;
+  background: linear-gradient(79deg, rgba(30, 210, 255, 0.74) 0%, rgba(28,32,36,1) 84%);
+}
+
+
+.info .rating{
+  overflow: visible;
+  margin: 2vh 0px 0vh 0px;
+  padding: 3vh 15px 15px 15px;
+}
+.info .features .header, .info .links .header, .info .rating .header, .info .languages .header{  
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  position: absolute;
+  top: -16%;
+}
+.info .links .header{
+  top: -6%;
+}
+.info .rating .header{
+  top: -8%;
+}
+.info .languages .header{
+  top: -3.7%;
+}
+.info .features div{
+  background-color: #292727;
+}
+.info .features i{
+  width: 6%;
+  padding: 0px 1%;
+  height: 100%;
+}
+.info .links{
+  margin: 1vh 0px;    
+  padding: 15px;
+}
+.info .features, .info .links, .info .rating, .info .languages{
+  background-image: url("/img/featured/background.jpg");
+  background-size: cover;  
+  margin: 2vh 0px 0vh 0px;
+  padding: 3vh 15px 15px 15px;
+  overflow: visible;
+}
+.info .features a, .info .links a{
+  width: 100%;
+  text-align: start;
+  background-color: #316282aa;
+  color: #1ed2ff;
+  border: none;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0px 7.5px;
+  display: block;
+}
+.info .features a:hover, .info .links a:hover{
+  background-color: #1ed2ff;
+  color: #FFFFFF;
+}
+.info .features a{
+  display: inline-block;
+  width: 93.2%;
+  height: 100%;
+}
+@media (max-width: 1199.98px) {
+  .info .features a{
+    width: 93.04%;
+  }
+}
+.info .languages table{
+  color: #ffffffb9;
+  text-align: center;
+}
+.info .languages table i{
+  color: #1ed2ff;
 }
