@@ -1,0 +1,56 @@
+genre: Niezależne@
+desc: Green Hell to desperacka walka o przetrwanie w głębi amazońskiego lasu deszczowego. Gracz wyrusza w podróż do granic własnej wytrzymałości, a ciężar emocjonalny i fizyczny odbija na nim swoje piętno. Jak długo jesteś w stanie przetrwać stawiając czoła nieznanemu?@
+lastRev: Bardzo pozytywne<span class="review-number">(790)</span>@
+allRev: Bardzo pozytywne<span class="review-number">(45,505)</span>@
+producent: Creepy Jar@
+publisher: Creepy Jar@
+releaseDate: 5 września 2019@
+tags: 7@
+tag0: Survival@
+tag1: Wieloosobowe@
+tag2: Sieciowa Kooperacja@
+tag3: Otwarty świat@
+tag4: Wytwarzanie@
+tag5: Survivalowe w otwartym świecie@
+tag6: Akcja@
+price: 53,99zł@
+discount: true@
+discountAmount: minus-40@
+timeLeft: OFERTA SPECJALNA! Oferta kończy się za 48H@
+platforms: 1@
+platform0: <i class="fa-brands fa-windows fa-xl mx-2"></i>@
+about: Green Hell to realistyczny symulator przetrwania rozgrywający się w otwartym świecie niezbadanego lasu deszczowego Amazonii.<img src="gameData/Green Hell/desc1.gif" alt="about1">Jesteś sam w dżungli, pozbawiony jedzenia czy ekwipunku a Twoim celem jest przetrwanie i znalezienie drogi powrotnej.<br><br>Podczas swej wyprawy nie możesz liczyć na niczyje wsparcie. Tylko własne umiejętności nabyte drogą prób i błędów pomogą ci przeżyć. Poznaj sposoby na budowanie szałasów lub tworzenie narzędzi i broni, które pozwolą ci polować lub obronić się przed niebezpieczeństwem.<img src="gameData/Green Hell/desc2.gif" alt="about2">Walcz nie tylko z dziką przyrodą, wspinając się na szczyt łańcucha pokarmowego, ale też z bakteriami tropikalnymi chorobami, które mogą zagrażać życiu. Lawiruj między pułapkami zastawionymi zarówno przez naturę, jak Twój własny umysł, ogarnięty strachem przed czającym się w dżungli zagrożeniem.<img src="gameData/Green Hell/desc3.gif" alt="about3">Cechy:<br><br>
+• Wykorzystanie prawdziwych technik survivalowych (rozpalanie ognia, budowa obozowiska, konstrukcja pułapek i wiele innych)<br><br>
+• Pozyskiwanie materiałów i tworzenie z nich przedmiotów pozwalających przeżyć (bronie i narzędzia)<br><br>
+• Pozyskiwanie pożywienia (polowanie i uprawa)<br><br>
+• Opatrywanie ran i urazów, leczenie chorób
+<img src="gameData/Green Hell/desc4.gif" alt="about4">@
+features: 5@
+feature0: <i class="fa-solid fa-user"></i>
+<a href="end.html">Jednoosobowa</a>@
+feature1: <i class="fa-solid fa-user-group"></i>
+<a href="end.html">Sieciowa kooperacja</a>@
+feature2: <i class="fa-solid fa-star"></i>
+<a href="end.html">Osiągnięcia Steam</a>@
+feature3: <i class="fa-solid fa-gamepad"></i>
+<a href="end.html">Pełna obsługa kontrolerów</a>@
+feature4: <i class="fa-solid fa-cloud"></i>
+<a href="end.html">Steam Cloud</a>@
+featuresHeader: -15%@
+links: 9@
+link0: <a href="end.html">Odwiedź stronę internetową</a>@
+link1: <a href="end.html">Green Hell na Facebooku</a>@
+link2: <a href="end.html">Green Hell na Twitterze</a>@
+link3: <a href="end.html">Green Hell na Yuotube</a>@
+link4: <a href="end.html">Oficjalny serwer na Discordzie</a>@
+link5: <a href="end.html">Wyświetl historię aktualizacji</a>@
+link6: <a href="end.html">Zobacz powiązane aktualności</a>@
+link7: <a href="end.html">Pokaż dyskusje</a>@
+link8: <a href="end.html">Znajdź grupy społeczności</a>@
+linksHeader: -4.5%@
+pegi: img/PEGI/18.png@
+polish: 101@
+english: 111@
+german: 101@
+spanish: 101@
+japanese: 101@

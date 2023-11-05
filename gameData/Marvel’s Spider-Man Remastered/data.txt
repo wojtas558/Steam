@@ -1,0 +1,54 @@
+genre: Akcji@
+desc: W pełnej akcji oryginalnej historii Marvel’s Spider-Man Remastered dochodzi do zderzenia światów Petera Parkera i Spider-Mana. Wciel się w doświadczonego pajęczego bohatera, rzuć wyzwanie kultowym złoczyńcom i zwalczaj przestępczość, bujając się na sieci po tętniącym życiem Marvelowskim Nowym Jorku.@
+lastRev: Przytłaczająco pozytywne<span class="review-number">(2,839)</span>@
+allRev: Przytłaczająco pozytywne<span class="review-number">(57,640)</span>@
+producent: Insomniac Games, Nixxes Software@
+publisher: PlayStation PC LLC@
+releaseDate: 12 sierpnia 2022@
+tags: 7@
+tag0: Superbohater@
+tag1: Otwarty świat@
+tag2: Akcja@
+tag3: Jednoosobowe@
+tag4: Bogata fabuła@
+tag5: Przygodowe@
+tag6: Walka@
+price: 155,40zł@
+discount: true@
+discountAmount: minus-40@
+timeLeft: OFERTA SPECJALNA! Oferta kończy się za 72H@
+platforms: 1@
+platform0: <i class="fa-brands fa-windows fa-xl mx-2"></i>@
+about: Marvel's Spider-Man Remastered – gra stworzona przez Insomniac Games we współpracy z Marvelem – trafi również na PC dzięki wersji opracowanej przez Nixxes Software. Wyrusz do Marvelowskiego Nowego Jorku i wciel się w doświadczonego pajęczego bohatera, dla którego starcia ze złoczyńcami i przestępczością to chleb powszedni. Poznasz historię Petera Parkera, który próbuje pogodzić chaotyczne życie osobiste z zawodowym, podczas gdy na jego barkach spoczywa los całego miasta.<p>Główne cechy</p>
+Be Greater<br>
+Kiedy w Marvelowskim Nowym Jorku pojawiają się potężni złoczyńcy, dochodzi do zderzenia światów Petera Parkera i Spider-Mana. By ocalić miasto i bliskich, musi on wznieść się na wyżyny swoich możliwości.<br><br>
+Poczuj się jak Spider-Man<br>
+Po ośmiu latach w skórze Spider-Mana Peter Parker jest specjalistą od zwalczania przestępczości. Poczuj pełnię mocy bardziej doświadczonego Spider-Mana dzięki improwizacyjnemu systemowi walki, dynamicznym wyczynom akrobatycznym, systemowi płynnego przemieszczania się po mieście oraz interakcjom z otoczeniem.<br><br>
+Zderzenie światów<br>
+W tej pełnej akcji oryginalnej historii dochodzi do zderzenia światów Petera Parkera i Spider-Mana. W nowym uniwersum pajęczego superbohatera kultowe postacie z życia Petera i Spider-Mana uległy zmianie, dzięki czemu znajomi bohaterowie otrzymali wyjątkowe role.<br><br>
+Marvelowski Nowy Jork twoim placem zabaw<br>
+Nowy Jork w Marvel’s Spider-Man wygląda jak prawdziwy! Mknij przez pełne życia dzielnice i zachwycaj się słynnymi miejscami na Manhattanie oraz kultowymi Marvelowskimi obiektami. Wykorzystuj otoczenie, by pokonywać złoczyńców, wykonując niewiarygodne eliminacje rodem z filmów akcji.<br><br>
+Ciesz się zawartością Miasta, które nie śpi<br>
+Poznaj kontynuację opowieści z Marvel’s Spider-Man Remastered, wyruszając z Peterem Parkerem na przygodę w Marvel’s Spider-Man: Miasto, które nie śpi – dodatku zawierającym trzy rozdziały z nowymi misjami i wyzwaniami.@
+features: 4@
+feature0: <i class="fa-solid fa-user"></i>
+<a href="end.html">Jednoosobowa</a>@
+feature1: <i class="fa-solid fa-star"></i>
+<a href="end.html">Osiągnięcia Steam</a>@
+feature2: <i class="fa-solid fa-gamepad"></i>
+<a href="end.html">Częściowa obsługa kontrolerów</a>@
+feature3: <i class="fa-solid fa-cloud"></i>
+<a href="end.html">Steam Cloud</a>@
+featuresHeader: -18.5%@
+links: 4@
+link0: <a href="end.html">Wyświetl historię aktualizacji</a>@
+link1: <a href="end.html">Zobacz powiązane aktualności</a>@
+link2: <a href="end.html">Pokaż dyskusje</a>@
+link3: <a href="end.html">Znajdź gr upy społeczności</a>@
+linksHeader: -7%@
+pegi: img/PEGI/16.png@
+polish: 111@
+english: 111@
+german: 111@
+spanish: 111@
+japanese: 111@

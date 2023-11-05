@@ -1055,8 +1055,14 @@ body {
   font-size: 25px;
   font-weight: 600;
   line-height: 150%;
-  color: #ffffffff;
+  color: #1ed2ff;
   margin: 1.25vh 0px;
+}
+.info .about li{
+  margin: 0.35vh 0px;
+}
+.info .about li::marker{
+  color: #1ed2ff;
 }
 .info .about img{
   width: 100%;

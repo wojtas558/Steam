@@ -1,0 +1,61 @@
+genre: Wczesny dostęp@
+desc: Project Zomboid to najlepsza gra polegająca na przetrwaniu zombie. Plądrujesz, budujesz, tworzysz, walczysz, uprawiasz ziemię i łowisz ryby, walcząc o przetrwanie. Na śmiałków czeka rozległa mapa, piaskownica z możliwością masowego dostosowywania i uroczy szop pracz-samouczek. Więc jak umrzesz? Wystarczy tylko ugryzienie..@
+lastRev: Bardzo pozytywne<span class="review-number">(6,353)</span>@
+allRev: Bardzo pozytywne<span class="review-number">(183,775)</span>@
+producent: The Indie Stone@
+publisher: The Indie Stone@
+releaseDate: 8 listopada 2013@
+tags: 9@
+tag0: Survival@
+tag1: Zaombvie@
+tag2: Otwarty świat@
+tag3: Wieloosobowe@
+tag4: Piaskownica@
+tag5: Postapokaliptyczne@
+tag6: Kooperacja@
+tag7: RPG@
+tag8: Survivalowe w otwartym świecie@
+price: 61,63zł@
+discount: true@
+discountAmount: minus-33@
+timeLeft: OFERTA SPECJALNA! Oferta kończy się za 24H@
+platforms: 3@
+platform0: <i class="fa-brands fa-windows fa-xl mx-2"></i>@
+platform1: <i class="fa-brands fa-apple fa-xl mx-2"></i>@
+platform2: <i class="fa-brands fa-steam fa-xl mx-2"></i>@
+about: Project Zomboid to otwarta piaskownica pełna zombie. Zadaje jedno proste pytanie – jak umrzesz?<br><br>W miastach Muldraugh i West Point ocaleni muszą plądrować domy, budować umocnienia i robić wszystko, co w ich mocy, aby z dnia na dzień opóźniać nieuniknioną śmierć. Żadna pomoc nie nadchodzi – ich dalsze przetrwanie zależy od ich sprytu, szczęścia i umiejętności uniknięcia bezlitosnej hordy.<br><br>
+Aktualne funkcje<br><br><ul style="list-style-type: square;">
+<li>Hardkorowa gra typu sandbox zombie survival, skupiająca się na realistycznym przetrwaniu.</li><br>
+<li>Przetrwanie w trybie wieloosobowym online ze stałymi serwerami uruchamianymi przez graczy.</li><br>
+<li>Setki zombie z mechaniką hordy i zaawansowanymi systemami wzroku i słuchu.</li><br>
+<li>System pełnego pola widzenia oraz mechanika oświetlenia, dźwięku i widoczności w czasie rzeczywistym. Ukryj się w cieniu, zachowaj ciszę i wyłącz światło w nocy lub przynajmniej zawieś prześcieradła w oknach.</li><br>
+<li>Pojazdy z pełną fizyką oraz głęboką i realistyczną mechaniką rozgrywki.</li><br>
+<li>Używaj narzędzi i przedmiotów do tworzenia broni, barykad i gotowania. Możesz nawet budować forty odporne na zombie, rąbiąc drzewa, piłując drewno i zbierając zapasy.</li><br>
+<li>Pokonaj depresję, nudę, głód, pragnienie i choroby, próbując przetrwać.</li><br>
+<li>Rolnictwo, wędkarstwo, stolarstwo, gotowanie, łapanie pułapek, dostosowywanie postaci, umiejętności i atuty rozwijające się w oparciu o to, co robisz w grze.</li></ul>@
+features: 5@
+feature0: <i class="fa-solid fa-user"></i>
+<a href="end.html">Jednoosobowa</a>@
+feature1: <i class="fa-solid fa-user-group"></i>
+<a href="end.html">Sieciowa kooperacja</a>@
+feature2: <i class="fa-solid fa-user-group"></i>
+<a href="end.html">Kooperacja na wspólnym ekranie</a>@
+feature3: <i class="fa-solid fa-wrench"></i>
+<a href="end.html">Warsztat Steam</a>@
+feature4: <i class="fa-solid fa-gamepad"></i>
+<a href="end.html">Częściowa obsługa kontrolerów</a>@
+featuresHeader: -15%@
+links: 6@
+link0: <a href="end.html">Odwiedź stronę internetową</a>@
+link1: <a href="end.html">Wyświetl historię aktualizacji</a>@
+link2: <a href="end.html">Zobacz powiązane aktualności</a>@
+link3: <a href="end.html">Pokaż dyskusje</a>@
+link4: <a href="end.html">Odwiedź warsztat</a>@
+link5: <a href="end.html">Znajdź grupy społeczności</a>@
+linksHeader: -5%@
+pegi: img/PEGI/18.png@
+polish: 100@
+english: 100@
+german: 100@
+spanish: 100@
+japanese: 100@

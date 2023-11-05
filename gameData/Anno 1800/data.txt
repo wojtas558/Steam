@@ -1,0 +1,44 @@
+genre: Symulacje@
+desc: Przeprowadź rewolucję przemysłową w Anno 1800™! Poznaj jedną z najbardziej ekscytujących i dynamicznych epok w historii. Odkrywaj nowe technologie, kontynenty i społeczeństwa. Ukształtuj nowy świat wedle własnego uznania!@
+lastRev: Bardzo pozytywne<span class="review-number">(1,811)</span>@
+allRev: Bardzo pozytywne<span class="review-number">(74,448)</span>@
+producent: Ubisoft Mainz@
+publisher: Ubisoft@
+releaseDate: kwietnia 2019@
+tags: 8@
+tag0: Budowanie miasta@
+tag1: Strategiczne@
+tag2: Symulatory@
+tag3: Gospodarka@
+tag4: Wieloosobowe@
+tag5: RTS@
+tag6: Piaskownica@
+tag7: Zarządanie zasobami@
+price: 62,47zł@
+discount: true@
+discountAmount: minus-75@
+timeLeft: OFERTA WEEKENDOWA! Oferta kończy się 9 listopada@
+platforms: 1@
+platform0: <i class="fa-brands fa-windows fa-xl mx-2"></i>@
+about: Zamów przed premierą już dziś, aby otrzymać trzy dodatkowe elementy w grze:<br><br>• Pamiątka roku 1602: Uczcij 20. rocznicę serii kultową figurką Anno 1602 i zwiększ wartość kulturalną swojego miasta.<br><br>
+• Imperialny pociąg: Wyróżnij się tym niezwykle misternie zdobionym modelem i podróżuj koleją żelazną jak nikt inny.<br><br>
+• Imperialny okręt dowodzenia: Unikatowy okręt startowy, dzięki któremu rozpoczniesz grę niezwykle efektownie.<img src="gameData/Anno 1800/desc1.jpg" alt="about1"><p>PIONIERZY NOWEGO ŚWITU</p>Przeprowadź rewolucję przemysłową w Anno 1800™!<br><br>Poznaj jedną z najbardziej ekscytujących i dynamicznych epok w historii. Odkrywaj nowe technologie, kontynenty i społeczeństwa. Ukształtuj nowy świat wedle własnego uznania! Znajdziesz tu wszystkie składniki potrzebne do stworzenia pamiętnej gry z serii Anno. Podróżuj po całym świecie podczas rewolucji przemysłowej i napisz własną historię!<p>NAJLEPSZE Z SERII ANNO</p>Anno 1800 łączy w sobie ulubione przez fanów funkcje z 20-letniej historii Anno, takie jak indywidualni rywale SI, losowo generowane mapy, rozgrywki wielosesyjne i nie tylko. To bogata symulacja budowy miasta z fabularną kampanią, personalizowanym trybem otwartego świata i klasyczną opcją rozgrywki dla wielu graczy Anno.<p>ODKRYJ NOWY KONTYNENT</p>Zyskasz szansę odkrycia Ameryki Południowej, pełnej wyjątkowych zasobów i możliwości, ale także ryzyka i wyzwań. Przebądź ocean, aby odkryć nowy świat i skorzystać z nowych okazji.@
+features: 2@
+feature0: <i class="fa-solid fa-user"></i>
+<a href="end.html">Jednoosobowa</a>@
+feature1: <i class="fa-solid fa-user-group"></i>
+<a href="end.html">Sieciowa kooperacja</a>@
+featuresHeader: -27%@
+links: 5@
+link0: <a href="end.html">Odwiedź stronę internetową</a>@
+link1: <a href="end.html">Wyświetl historię aktualizacji</a>@
+link2: <a href="end.html">Zobacz powiązane aktualności</a>@
+link3: <a href="end.html">Pokaż dyskusje</a>@
+link4: <a href="end.html">Znajdź grupy społeczności</a>@
+linksHeader: -7%@
+pegi: img/PEGI/12.png@
+polish: 101@
+english: 111@
+german: 111@
+spanish: 101@
+japanese: 101@

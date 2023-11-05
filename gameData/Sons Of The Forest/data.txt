@@ -1,0 +1,47 @@
+genre: Akcja@
+desc: Wysłany, by odnaleźć zaginionego miliardera na odległej wyspie, trafiasz do piekła opanowanego przez kanibali. Twórz, buduj i walcz o przetrwanie, sam lub z przyjaciółmi, w tym nowym, przerażającym symulatorze survival horroru w otwartym świecie.@
+lastRev: Bardzo pozytywne<span class="review-number">(3,480)</span>@
+allRev: Bardzo pozytywne<span class="review-number">(134,138)</span>@
+producent: Endnight Games Ltd@
+publisher: Newnight@
+releaseDate: 23 lutego 2023@
+tags: 8@
+tag0: Survival@
+tag1: Otwarty świat@
+tag2: Wieloosobowe@
+tag3: Survival horror@
+tag4: Kooperacja@
+tag5: Budowanie bazy@
+tag6: Wytwarzanie@
+tag7: Eksploracja@
+price: 111,19zł@
+discount: true@
+discountAmount: minus-20@
+timeLeft: OFERTA SPECJALNA! Oferta kończy się za 48H@
+platforms: 1@
+platform0: <i class="fa-brands fa-windows fa-xl mx-2"></i>@
+about: Zupełnie nowe doświadczenie od twórców „The forest”<img src="gameData/Sons Of The Forest/desc1.gif" alt="about1">Wysłany, by odnaleźć zaginionego miliardera na odległej wyspie, trafiasz do piekła opanowanego przez kanibali. Twórz, buduj i walcz o przetrwanie, sam lub z przyjaciółmi, w tym nowym, przerażającym symulatorze survival horroru w otwartym świecie.<p>Simulator Survival Horroru</p>Poczuj pełną swobodę w poznawaniu świata tak, jak chcesz. Ty decydujesz, co robisz, gdzie się udać i jak najlepiej przetrwać. Nie ma żadnych rozkazów ze strony NPC, którzy wydają ci rozkazy lub dają ci misje, których nie chcesz wykonywać. Ty wydajesz rozkazy i ty decydujesz, co stanie się dalej.<p>Walcz z demonami</p>Wejdź do świata, w którym nigdzie nie jest bezpiecznie, i walcz z szeregiem zmutowanych stworzeń, z których niektóre są prawie ludzkie, a inne nie przypominają niczego, co kiedykolwiek widziałeś. Uzbrojeni w pistolety, topory, pałki ogłuszające i nie tylko, chroń siebie i osoby, na których Ci zależy.<p>Buduj i twórz</p>Feel every interaction; Break sticks to make fires. Use an axe to cut out windows and floors. Build a small cabin, or a sea-side compound, the choice is yours.@
+features: 5@
+feature0: <i class="fa-solid fa-user"></i>
+<a href="end.html">Jednoosobowa</a>@
+feature1: <i class="fa-solid fa-user-group"></i>
+<a href="end.html">Sieciowa kooperacja</a>@
+feature2: <i class="fa-solid fa-star"></i>
+<a href="end.html">Osiągnięcia Steam</a>@
+feature3: <i class="fa-solid fa-gamepad"></i>
+<a href="end.html">Pełna obsługa kontrolerów</a>@
+feature4: <i class="fa-solid fa-cloud"></i>
+<a href="end.html">Steam Cloud</a>@
+featuresHeader: -15%@
+links: 4@
+link0: <a href="end.html">Wyświetl historię aktualizacji</a>@
+link1: <a href="end.html">Zobacz powiązane aktualności</a>@
+link2: <a href="end.html">Pokaż dyskusje</a>@
+link3: <a href="end.html">Znajdź grupy społeczności</a>@
+linksHeader: -8%@
+pegi: img/PEGI/18.png@
+polish: 101@
+english: 111@
+german: 101@
+spanish: 101@
+japanese: 101@

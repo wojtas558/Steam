@@ -1,0 +1,51 @@
+genre: Akcji@
+desc: Miles Morales stara się przyzwyczaić do nowego otoczenia, jednocześnie idąc w ślady swojego mentora, Petera Parkera, i stawiając pierwsze kroki w roli Spider-Mana. Kiedy w jego dzielnicy rozpoczyna się brutalna walka o władzę, Miles będzie musiał znaleźć swój własny sposób na bycie Spider-Manem.@
+lastRev: Bardzo pozytywne<span class="review-number">(1,580)</span>@
+allRev: Bardzo pozytywne<span class="review-number">(187,54)</span>@
+producent: Insomniac Games, Nixxes Software@
+publisher: PlayStation PC LLC@
+releaseDate: 18 listopada 2022@
+tags: 9@
+tag0: Akcja@
+tag1: Otwarty świat@
+tag2: Superbohater@
+tag3: Parkour@
+tag4: Bogata fabuła@
+tag5: Przygodowe@
+tag6: Walka@
+tag7: Eksploracja@
+tag8: Jednoosobowe@
+price: 131,40zł@
+discount: true@
+discountAmount: minus-40@
+timeLeft: OFERTA SPECJALNA! Oferta kończy się za 72H@
+platforms: 1@
+platform0: <i class="fa-brands fa-windows fa-xl mx-2"></i>@
+about: Po wydarzeniach Marvel’s Spider-Man Remastered nastoletni Miles Morales stara się przyzwyczaić do nowego otoczenia, jednocześnie idąc w ślady swojego mentora, Petera Parkera, i stawiając pierwsze kroki w roli Spider-Mana. Kiedy jednak na życiu mieszkańców jego nowej dzielnicy kładzie się cieniem brutalna walka o władzę, młody bohater zdaje sobie sprawę, że z wielką mocą musi wiązać się też wielka odpowiedzialność. Aby ocalić Marvelowski Nowy Jork, Miles będzie musiał znaleźć swój własny sposób na bycie Spider-Manem.
+<p>Początki Milesa Moralesa</p>Miles Morales odkrywa spektakularne moce, które odróżniają go od jego mentora, Petera Parkera. Opanuj wyjątkowe bioelektryczne ataki jadem i moc ukrywania się, a także widowiskową akrobatykę na sieciach, gadżety i różnorodne umiejętności.
+<p>Wojna o władzę</p>W Marvelowskim Nowym Jorku wybuchła wojna o władzę między podstępną korporacją energetyczną i uzbrojonymi w nowoczesną technologię przestępcami. Nowa dzielnica Milesa znalazła się w centrum sporu, a nastolatek musi poznać cenę, jaką trzeba zapłacić za stawanie się bohaterem, a także zdecydować, co poświęci w imię większego dobra.
+<p>Nowy, tętniący życiem dom</p>Przemierzaj pokryte śniegiem ulice tętniącej życiem dzielnicy, w której Miles stara się zakorzenić. Kiedy zacierają się granice między jego życiem osobistym i zwalczaniem przestępczości, bohater odkrywa, komu może ufać oraz co tak naprawdę oznacza być w domu.
+<p>Zoptymalizowana grafika na PC</p>Korzystaj z licznych opcji pozwalających dopasować jakość grafiki do różnych urządzeń, odblokowanego limitu klatek na sekundę oraz obsługi innych technologii, w tym zwiększającej wydajność NVIDIA DLSS 3 i NVIDIA DLSS 2, poprawiającej jakość obrazu NVIDIA DLAA oraz redukującej opóźnienia NVIDIA Reflex. Wspierane są również technologie skalowania AMD FSR 2.1, Intel XeSS oraz IGTI.
+<p>Sterowanie i personalizacja</p>Sterowanie i personalizacja@
+features: 4@
+feature0: <i class="fa-solid fa-user"></i>
+<a href="end.html">Jednoosobowa</a>@
+feature1: <i class="fa-solid fa-star"></i>
+<a href="end.html">Osiągnięcia Steam</a>@
+feature2: <i class="fa-solid fa-gamepad"></i>
+<a href="end.html">Częściowa obsługa kontrolerów</a>@
+feature3: <i class="fa-solid fa-cloud"></i>
+<a href="end.html">Steam Cloud</a>@
+featuresHeader: -18.5%@
+links: 4@
+link0: <a href="end.html">Wyświetl historię aktualizacji</a>@
+link1: <a href="end.html">Zobacz powiązane aktualności</a>@
+link2: <a href="end.html">Pokaż dyskusje</a>@
+link3: <a href="end.html">Znajdź gr upy społeczności</a>@
+linksHeader: -7%@
+pegi: img/PEGI/16.png@
+polish: 111@
+english: 111@
+german: 111@
+spanish: 111@
+japanese: 111@

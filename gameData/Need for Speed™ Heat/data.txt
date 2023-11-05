@@ -1,0 +1,45 @@
+genre: Wyscigowe@
+desc: Pracuj za dnia i ryzykuj nocą w Edycji Deluxe Need for Speed™ Heat, emocjonującej grze wyścigowej, w której prawo przestaje obowiązywać wraz z zachodem słońca.@
+lastRev: Bardzo pozytywne<span class="review-number">(1,811)</span>@
+allRev: Bardzo pozytywne<span class="review-number">(74,448)</span>@
+producent: Ghost Games@
+publisher: Electronic Arts@
+releaseDate: 8 listopada 2019@
+tags: 6@
+tag0: Wyścigowe@
+tag1: Otwarty świat@
+tag2: Wieloosobowe@
+tag3: Kierowanie pojazdem@
+tag4: Akcja@
+tag5: Jednoosobowe@
+price: 28,99zł@
+discount: true@
+discountAmount: minus-90@
+timeLeft: OFERTA SPECJALNA! Oferta kończy się za 12H@
+platforms: 1@
+platform0: <i class="fa-brands fa-windows fa-xl mx-2"></i>@
+about: Emocjonujące doświadczenie, w którym zmierzysz się ze skorumpowaną policją i dołączysz do wyścigowej elity.<br><br>Edycja Deluxe zawiera:
+<ul style="list-style-type: square;"><li>1 samochód startowy — Startowy samochód Mitsubishi Lancer Evolution X K.S – dostępny od początku w garażu</li><li>3 dodatkowe samochody z edycji K.S, do odblokowania w czasie gry</li><li>4 wyjątkowe stroje postaci – dostępne w menu personalizacji, wymienne i pasujące do męskich i żeńskich postaci.</li><li>Bonus do gotówki i REP</li><li>Nagrody reputacji zwiększone o 5%</li><li>Nagrody pieniężne zwiększone o 5%</li></ul>@
+features: 4@
+feature0: <i class="fa-solid fa-user"></i>
+<a href="end.html">Jednoosobowa</a>@
+feature1: <i class="fa-solid fa-user-group"></i>
+<a href="end.html">Sieciowa kooperacja</a>@
+feature2: <i class="fa-solid fa-star"></i>
+<a href="end.html">Osiągnięcia Steam</a>@
+feature3: <i class="fa-solid fa-gamepad"></i>
+<a href="end.html">Pełna obsługa kontrolerów</a>@
+featuresHeader: -17%@
+links: 5@
+link0: <a href="end.html">Odwiedź stronę internetową</a>@
+link1: <a href="end.html">Wyświetl historię aktualizacji</a>@
+link2: <a href="end.html">Zobacz powiązane aktualności</a>@
+link3: <a href="end.html">Pokaż dyskusje</a>@
+link4: <a href="end.html">Znajdź grupy społeczności</a>@
+linksHeader: -7%@
+pegi: img/PEGI/16.png@
+polish: 110@
+english: 110@
+german: 110@
+spanish: 110@
+japanese: 110@
