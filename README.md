@@ -7,13 +7,13 @@ Template Author: Untree.co
 Template License: https://creativecommons.org/licenses/by/3.0/  
 Author URI: https://untree.co/  
 
-Twitter: https://twitter.com/Untree_co  
-Facebook: https://web.facebook.com/Untree.co/  
-Pinterest: https://pinterest.com/Untree_co/  
-
 
 __Images and videos__  
 https://store.steampowered.com  
+https://commons.wikimedia.org/wiki/File:16x16.png#/media/File:16x16.png 
 
-__Icons__
-https://fontawesome.com  
+__Icons__  
+https://fontawesome.com
+
+__Fonts__  
+https://fonts.google.com/specimen/Barlow
