@@ -1,26 +1,41 @@
+// GLOBAL VARIBLE
+var tagsWidth = [];
+direction = 1;
+
+
 function calcView()
 {
     height = String(document.getElementById("title").clientHeight * -1 / 2);
     document.getElementById("title").style.marginTop = String(height) + "px";
 }
+function startSlider()
+{
+    interval = setInterval(slide, 200);
+}
 
+function slide()
+{
+    slider = document.getElementById('slider').scrollLeft;
+    document.getElementById('slider').scrollLeft += 1 * direction;
+    if(slider == document.getElementById('slider').scrollLeft)
+        clearInterval(direction *= -1);
+}
 
 function showScreenshot(slide, screenshot)
 {
-    document.getElementById("s" + String(slide) + "capsule").src = "img/featured/game" + String(slide) + "/screenshot" + String(screenshot) + ".jpg";
+    document.getElementById("carousel" + String(slide) + "capsule").src = "img/featured/game" + String(slide) + "/screenshot" + String(screenshot) + ".jpg";
+    document.getElementById("slide" + String(slide) + "capsule").src = "img/featured/game" + String(slide) + "/screenshot" + String(screenshot) + ".jpg";
 }
 function changeCapsuleBack(slide)
 {
-    document.getElementById("s" + String(slide) + "capsule").src = "img/featured/game" + String(slide) + "/capsule.jpg";
+    document.getElementById("carousel" + String(slide) + "capsule").src = "img/featured/game" + String(slide) + "/capsule.jpg";
+    document.getElementById("slide" + String(slide) + "capsule").src = "img/featured/game" + String(slide) + "/capsule.jpg";
 }
 
 function loadGamePage(title)
 {
     window.location.href = "../game.html" + "?title=" + title
 }
-
-// GLOBAL VARIBLE
-var tagsWidth = [];
 
 async function changeData()
 {

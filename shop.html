@@ -14,7 +14,7 @@
 
 	<title>Steam</title>
 </head>
-<body>
+<body onload="startSlider()">
 	<!-- Start navbar Section -->
 	<nav class="custom-navbar navbar navbar navbar-expand-lg navbar-dark" arial-label="Steam navigation bar">
 		<div class="container">
@@ -40,9 +40,194 @@
 	<!-- End navbar --> 
 	<!-- Start featured Section -->
 	<div class="featured">
-		<div class="container">
+		<div class="container-fluid d-lg-none slider" id="slider">
+			<div class="container-fluid slider-item">
+				<a href="#/" onclick="loadGamePage('Cyberpunk 2077')">
+					<div class="row g-0 justify-content-center align-items-center">
+						<div class="featured-capsule col-8 p-auto">
+							<img src="img/featured/game1/capsule.jpg" alt="game1" class="img-fluid" id="slide1capsule">
+						</div>
+						<div class="featured-info col-4 justify-content-center d-flex flex-column">
+							<div class="my-auto">
+								<div class="featured-title">
+									Cyberpunk 2077
+								</div>
+								<div class="featured-screenshots" onmouseleave="changeCapsuleBack(1)">
+									<div class="row row-cols-2 g-2">
+										<div class="w-50 d-block"><img src="img/featured/game1/screenshot1.jpg" alt="ss1" class="w-100" onmouseover="showScreenshot(1, 1)"></div>
+										<div class="w-50 d-block"><img src="img/featured/game1/screenshot2.jpg" alt="ss2" class="w-100" onmouseover="showScreenshot(1, 2)"></div>
+										<div class="w-50 d-block"><img src="img/featured/game1/screenshot3.jpg" alt="ss3" class="w-100" onmouseover="showScreenshot(1, 3)"></div>
+										<div class="w-50 d-block"><img src="img/featured/game1/screenshot4.jpg" alt="ss4" class="w-100" onmouseover="showScreenshot(1, 4)"></div>
+									</div>
+								</div>
+								<div class="featured-reasons">
+									<span class="d-block mt-2">Już dostępne</span>
+									<span class="badge bg-secondary d-inline d-lg-none d-xl-inline">Bestseller</span>
+								</div>
+							</div>
+							<div class="featured-bottom">
+								<div class="minus-40 featured-price d-inline discount">
+									119,40zł
+								</div>
+								<div class="featured-platforms d-inline float-end">
+									<i class="fa-brands fa-windows fa-xl"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="container-fluid slider-item">
+				<a href="#/" onclick="loadGamePage('Euro Truck Simulator 2')">
+					<div class="row g-0 justify-content-center  align-items-center">
+						<div class="featured-capsule col-8 p-auto">
+							<img src="img/featured/game2/capsule.jpg" alt="game2" class="img-fluid" id="slide2capsule">
+						</div>
+						<div class="featured-info col-4 justify-content-center d-flex flex-column">
+							<div class="my-auto">
+								<div class="featured-title" style="font-size: 19px;">
+									Euro Truck Simulator 2
+								</div>
+								<div class="featured-screenshots" onmouseleave="changeCapsuleBack(2)">
+									<div class="row row-cols-2 g-2">
+										<div class="w-50 d-block"><img src="img/featured/game2/screenshot1.jpg" alt="ss1" class="w-100" onmouseover="showScreenshot(2, 1)"></div>
+										<div class="w-50 d-block"><img src="img/featured/game2/screenshot2.jpg" alt="ss2" class="w-100" onmouseover="showScreenshot(2, 2)"></div>
+										<div class="w-50 d-block"><img src="img/featured/game2/screenshot3.jpg" alt="ss3" class="w-100" onmouseover="showScreenshot(2, 3)"></div>
+										<div class="w-50 d-block"><img src="img/featured/game2/screenshot4.jpg" alt="ss4" class="w-100" onmouseover="showScreenshot(2, 4)"></div>
+									</div>
+								</div>
+								<div class="featured-reasons">
+									<span class="d-block mt-2" style="font-size: 81%;">Nowa zawartość już dostępna</span>
+									<span class="badge bg-secondary d-inline d-lg-none d-xl-inline">Bestseller</span>
+								</div>
+							</div>
+							<div class="featured-bottom">
+								<div class="minus-75 featured-price d-inline discount">
+									19,99zł
+								</div>
+								<div class="featured-platforms d-inline float-end">
+									<i class="fa-brands fa-windows fa-xl"></i>
+									<i class="fa-brands fa-apple fa-xl"></i>
+									<i class="fa-brands fa-steam fa-xl"></i>
+								</div>
+							</div>
+						</div>									
+					</div>
+				</a>
+			</div>
+			<div class="container-fluid slider-item">
+				<a href="#/" onclick="loadGamePage('EA SPORTS FC™ 24')">
+					<div class="row g-0 justify-content-center  align-items-center">
+						<div class="featured-capsule col-8 p-auto">
+							<img src="img/featured/game3/capsule.jpg" alt="game3" class="img-fluid" id="slide3capsule">
+						</div>
+						<div class="featured-info col-4 justify-content-center d-flex flex-column">
+							<div class="my-auto">
+								<div class="featured-title">
+									EA SPORTS FC™ 24
+								</div>
+								<div class="featured-screenshots" onmouseleave="changeCapsuleBack(3)">
+									<div class="row row-cols-2 g-2">
+										<div class="w-50 d-block"><img src="img/featured/game3/screenshot1.jpg" alt="ss1" class="w-100" onmouseover="showScreenshot(3, 1)"></div>
+										<div class="w-50 d-block"><img src="img/featured/game3/screenshot2.jpg" alt="ss2" class="w-100" onmouseover="showScreenshot(3, 2)"></div>
+										<div class="w-50 d-block"><img src="img/featured/game3/screenshot3.jpg" alt="ss3" class="w-100" onmouseover="showScreenshot(3, 3)"></div>
+										<div class="w-50 d-block"><img src="img/featured/game3/screenshot4.jpg" alt="ss4" class="w-100" onmouseover="showScreenshot(3, 4)"></div>
+									</div>
+								</div>
+								<div class="featured-reasons">
+									<span class="d-block mt-2">Już dostępne</span>
+									<span class="badge bg-secondary d-inline d-lg-none d-xl-inline">Bestseller</span>
+								</div>
+							</div>
+							<div class="featured-bottom">
+								<div class="featured-price d-inline">
+									319,90zł
+								</div>
+								<div class="featured-platforms d-inline float-end">
+									<i class="fa-brands fa-windows fa-xl"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="container-fluid slider-item">
+				<a href="#/" onclick="loadGamePage('Diablo® IV')">
+					<div class="row g-0 justify-content-center  align-items-center">
+						<div class="featured-capsule col-8 p-auto">
+							<img src="img/featured/game4/capsule.jpg" alt="game4" class="img-fluid" id="slide4capsule">
+						</div>
+						<div class="featured-info col-4 justify-content-center d-flex flex-column">
+							<div class="my-auto">
+								<div class="featured-title">
+									Diablo® IV
+								</div>
+								<div class="featured-screenshots" onmouseleave="changeCapsuleBack(4)">
+									<div class="row row-cols-2 g-2">
+										<div class="w-50 d-block"><img src="img/featured/game4/screenshot1.jpg" alt="ss1" class="w-100" onmouseover="showScreenshot(4, 1)"></div>
+										<div class="w-50 d-block"><img src="img/featured/game4/screenshot2.jpg" alt="ss2" class="w-100" onmouseover="showScreenshot(4, 2)"></div>
+										<div class="w-50 d-block"><img src="img/featured/game4/screenshot3.jpg" alt="ss3" class="w-100" onmouseover="showScreenshot(4, 3)"></div>
+										<div class="w-50 d-block"><img src="img/featured/game4/screenshot4.jpg" alt="ss4" class="w-100" onmouseover="showScreenshot(4, 4)"></div>
+									</div>
+								</div>
+								<div class="featured-reasons">
+									<span class="d-block mt-2">Dodaj do listy życzeń</span>
+									<span class="badge bg-secondary d-inline d-lg-none d-xl-inline">Bestseller</span>
+								</div>
+							</div>
+							<div class="featured-bottom">
+								<div class="featured-price d-inline">
+									349,00zł
+								</div>
+								<div class="featured-platforms d-inline float-end">
+									<i class="fa-brands fa-windows fa-xl"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="container-fluid slider-item">
+				<a href="#/" onclick="loadGamePage('Red Dead Redemption 2')">
+					<div class="row g-0 justify-content-center  align-items-center">
+						<div class="featured-capsule col-8 p-auto">
+							<img src="img/featured/game5/capsule.jpg" alt="game5" class="img-fluid" id="slide5capsule">
+						</div>
+						<div class="featured-info col-4 justify-content-center d-flex flex-column">
+							<div class="my-auto">
+								<div class="featured-title" style="font-size: 17.5px">
+									Red Dead Redemption 2
+								</div>
+								<div class="featured-screenshots" onmouseleave="changeCapsuleBack(5)">
+									<div class="row row-cols-2 g-2">
+										<div class="w-50 d-block"><img src="img/featured/game5/screenshot1.jpg" alt="ss1" class="w-100" onmouseover="showScreenshot(5, 1)"></div>
+										<div class="w-50 d-block"><img src="img/featured/game5/screenshot2.jpg" alt="ss2" class="w-100" onmouseover="showScreenshot(5, 2)"></div>
+										<div class="w-50 d-block"><img src="img/featured/game5/screenshot3.jpg" alt="ss3" class="w-100" onmouseover="showScreenshot(5, 3)"></div>
+										<div class="w-50 d-block"><img src="img/featured/game5/screenshot4.jpg" alt="ss4" class="w-100" onmouseover="showScreenshot(5, 4)"></div>
+									</div>
+								</div>
+								<div class="featured-reasons">
+									<span class="d-block mt-2">Już dostępne</span>
+									<span class="badge bg-secondary d-inline d-lg-none d-xl-inline">Bestseller</span>
+								</div>
+							</div>
+							<div class="featured-bottom">
+								<div class="minus-60 featured-price d-inline discount">
+									99,96zł
+								</div>
+								<div class="featured-platforms d-inline float-end">
+									<i class="fa-brands fa-windows fa-xl"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+
+		<div class="container d-none d-lg-block">
 			<div class="row justify-content-center">				
-				<div id="featuredCarousel" class="carousel slide carousel-fade" data-bs-interval="false">
+				<div id="featuredCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
 					<div class="carousel-indicators">
 						<button type="button" data-bs-target="#featuredCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Game 1"></button>
 						<button type="button" data-bs-target="#featuredCarousel" data-bs-slide-to="1" aria-label="Game 2"></button>
@@ -51,12 +236,12 @@
 						<button type="button" data-bs-target="#featuredCarousel" data-bs-slide-to="4" aria-label="Game 5"></button>
 					</div>
 					<div class="carousel-inner">
-						<div class="carousel-item active">
+						<div class="carousel-item active" data-bs-interval="10000">
 							<div class="container-fluid">
 								<a href="#/" onclick="loadGamePage('Cyberpunk 2077')">
-									<div class="row g-0 justify-content-center">
+									<div class="row g-0 justify-content-center  align-items-center">
 										<div class="featured-capsule col-8 p-auto">
-											<img src="img/featured/game1/capsule.jpg" alt="game1" class="img-fluid" id="s1capsule">
+											<img src="img/featured/game1/capsule.jpg" alt="game1" class="img-fluid" id="carousel1capsule">
 										</div>
 										<div class="featured-info col-4 justify-content-center d-flex flex-column">
 											<div class="my-auto">
@@ -77,8 +262,8 @@
 												</div>
 											</div>
 											<div class="featured-bottom">
-												<div class="featured-price d-inline">
-													199,99zł
+												<div class="minus-40 featured-price d-inline discount">
+													119,40zł
 												</div>
 												<div class="featured-platforms d-inline float-end">
 													<i class="fa-brands fa-windows fa-xl"></i>
@@ -89,12 +274,12 @@
 								</a>
 							</div>
 						</div>
-						<div class="carousel-item">
+						<div class="carousel-item" data-bs-interval="10000">
 							<div class="container-fluid">
 								<a href="#/" onclick="loadGamePage('Euro Truck Simulator 2')">
-									<div class="row g-0 justify-content-center">
+									<div class="row g-0 justify-content-center  align-items-center">
 										<div class="featured-capsule col-8 p-auto">
-											<img src="img/featured/game2/capsule.jpg" alt="game2" class="img-fluid" id="s2capsule">
+											<img src="img/featured/game2/capsule.jpg" alt="game2" class="img-fluid" id="carousel2capsule">
 										</div>
 										<div class="featured-info col-4 justify-content-center d-flex flex-column">
 											<div class="my-auto">
@@ -129,12 +314,12 @@
 								</a>
 							</div>
 						</div>
-						<div class="carousel-item">
+						<div class="carousel-item" data-bs-interval="10000">
 							<div class="container-fluid">
 								<a href="#/" onclick="loadGamePage('EA SPORTS FC™ 24')">
-									<div class="row g-0 justify-content-center">
+									<div class="row g-0 justify-content-center  align-items-center">
 										<div class="featured-capsule col-8 p-auto">
-											<img src="img/featured/game3/capsule.jpg" alt="game3" class="img-fluid" id="s3capsule">
+											<img src="img/featured/game3/capsule.jpg" alt="game3" class="img-fluid" id="carousel3capsule">
 										</div>
 										<div class="featured-info col-4 justify-content-center d-flex flex-column">
 											<div class="my-auto">
@@ -167,12 +352,12 @@
 								</a>
 							</div>
 						</div>
-						<div class="carousel-item">
+						<div class="carousel-item" data-bs-interval="10000">
 							<div class="container-fluid">
 								<a href="#/" onclick="loadGamePage('Diablo® IV')">
-									<div class="row g-0 justify-content-center">
+									<div class="row g-0 justify-content-center  align-items-center">
 										<div class="featured-capsule col-8 p-auto">
-											<img src="img/featured/game4/capsule.jpg" alt="game4" class="img-fluid" id="s4capsule">
+											<img src="img/featured/game4/capsule.jpg" alt="game4" class="img-fluid" id="carousel4capsule">
 										</div>
 										<div class="featured-info col-4 justify-content-center d-flex flex-column">
 											<div class="my-auto">
@@ -205,12 +390,12 @@
 								</a>
 							</div>
 						</div>
-						<div class="carousel-item">
+						<div class="carousel-item" data-bs-interval="10000">
 							<div class="container-fluid">
 								<a href="#/" onclick="loadGamePage('Red Dead Redemption 2')">
-									<div class="row g-0 justify-content-center">
+									<div class="row g-0 justify-content-center  align-items-center">
 										<div class="featured-capsule col-8 p-auto">
-											<img src="img/featured/game5/capsule.jpg" alt="game5" class="img-fluid" id="s5capsule">
+											<img src="img/featured/game5/capsule.jpg" alt="game5" class="img-fluid" id="carousel5capsule">
 										</div>
 										<div class="featured-info col-4 justify-content-center d-flex flex-column">
 											<div class="my-auto">
@@ -270,9 +455,200 @@
 	<!-- End event -->
 	<!-- Start specialOffers Section -->
 	<div class="specialOffers">
-		<div class="container">
+		<div class="d-lg-none slider">
+			<div class="slider-item">
+				<a href="#/" onclick="loadGamePage('Monster Hunter World')">
+					<div class="card">
+						<img src="img/specialOffers/game1.jpg" class="card-img-top mb-4" alt="offer1">
+						<div class="card-body w-100 p-2">
+							<div class="specialOffers-reason">
+								OFERTA WEEKENDOWA
+							</div>
+							<div class="specialOffers-time">
+								Oferta kończy się 9 listopada o 20:30.
+							</div>
+							<div class="minus-50 specialOffers-price">
+								62,50zł
+							</div>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="slider-item">
+				<a href="#/" onclick="loadGamePage('Space Engineers')">
+					<div class="card">
+						<img src="img/specialOffers/game2.jpg" class="card-img-top mb-4" alt="offer2">
+						<div class="card-body w-100 p-2">
+							<div class="specialOffers-reason">
+								DARMOWY WEEKEND
+							</div>
+							<div class="specialOffers-time">
+								Oferta kończy się 8 listopada o 18:00.
+							</div>
+							<div class="minus-75 specialOffers-price">
+								17,99zł
+							</div>
+						</div>
+					</div>
+				</a>	
+			</div>
+			<div class="slider-item">
+				<div class="container">
+					<a href="#/" onclick="loadGamePage('Days Gone')">
+						<div class="card">
+							<img src="img/specialOffers/game3.jpg" class="card-img-top mb-4" alt="offer3">
+							<div class="card-body w-100 p-0 px-2">
+								<div class="minus-67 specialOffers-price">
+									72,27zł
+								</div>
+							</div>
+						</div>
+					</a>
+					<a href="#/" onclick="loadGamePage('Sons Of The Forest')">
+						<div class="card">
+							<img src="img/specialOffers/game4.jpg" class="card-img-top mb-4" alt="offer4">
+							<div class="card-body w-100 p-0 px-2">
+								<div class="minus-20 specialOffers-price">
+									111,19zł
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="slider-item">
+				<div class="container">
+					<a href="#/" onclick="loadGamePage('Need for Speed™ Heat')">
+						<div class="card">
+							<img src="img/specialOffers/game5.jpg" class="card-img-top mb-4" alt="offer5">
+							<div class="card-body w-100 p-0 px-2">
+								<div class="minus-90 specialOffers-price">
+									28,99zł
+								</div>
+							</div>
+						</div>
+					</a>
+					<div class="my-auto"></div>
+					<a href="#/" onclick="loadGamePage('Graveyard Keeper')">
+						<div class="card">
+							<img src="img/specialOffers/game6.jpg" class="card-img-top mb-4" alt="offer6">
+							<div class="card-body w-100 p-0 px-2">
+								<div class="minus-80 specialOffers-price">
+									18,39zł
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="slider-item">
+				<a href="#/" onclick="loadGamePage('Anno 1800')">
+					<div class="card">
+						<img src="img/specialOffers/game7.jpg" class="card-img-top mb-4" alt="offer7">
+						<div class="card-body w-100 p-2">
+							<div class="specialOffers-reason">
+								DARMOWY WEEKEND
+							</div>
+							<div class="specialOffers-time">
+								Oferta kończy się 9 listopada o 19:00.
+							</div>
+							<div class="minus-75 specialOffers-price">
+								62,47zł
+							</div>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="slider-item">
+				<a href="#/" onclick="loadGamePage('Green Hell')">
+					<div class="card">
+						<img src="img/specialOffers/game8.jpg" class="card-img-top mb-4" alt="offer2">
+						<div class="card-body w-100 p-2">
+							<div class="specialOffers-reason">
+								OFERTA WEEKENDOWA
+							</div>
+							<div class="specialOffers-time">
+								Oferta kończy się 7 listopada o 20:30.
+							</div>
+							<div class="minus-40 specialOffers-price">
+								53,99
+							</div>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="slider-item">
+				<div class="container">
+					<a href="#/" onclick="loadGamePage('Heavy Rain')">
+						<div class="card">
+							<img src="img/specialOffers/game9.jpg" class="card-img-top mb-4" alt="offer9">
+							<div class="card-body w-100 p-0 px-2">
+								<div class="minus-60 specialOffers-price">
+									27,60zł
+								</div>
+							</div>
+						</div>
+					</a>
+					<div class="my-auto"></div>
+					<a href="#/" onclick="loadGamePage('Project Zomboid')">
+						<div class="card">
+							<img src="img/specialOffers/game10.jpg" class="card-img-top mb-4" alt="offer10">
+							<div class="card-body w-100 p-0 px-2">
+								<div class="minus-33 specialOffers-price">
+									61,63zł
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="slider-item">
+				<a href="#/" onclick="loadGamePage('Cult of the Lamb')">
+					<div class="card">
+						<img src="img/specialOffers/game11.jpg" class="card-img-top mb-4" alt="offer7">
+						<div class="card-body w-100 p-2">
+							<div class="specialOffers-reason">
+								OFERTA WEEKENDOWA
+							</div>
+							<div class="specialOffers-time">
+								Oferta kończy się 2 listopada o 18:00.
+							</div>
+							<div class="minus-40 specialOffers-price">
+								53,99zł
+							</div>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="slider-item">
+				<div class="container">
+					<a href="#/" onclick="loadGamePage('Marvel’s Spider-Man Remastered')">
+						<div class="card">
+							<img src="img/specialOffers/game12.jpg" class="card-img-top mb-4" alt="offer11">
+							<div class="card-body w-100 p-0 px-2">
+								<div class="minus-40 specialOffers-price">
+									155,40zł
+								</div>
+							</div>
+						</div>
+					</a>
+					<div class="my-auto"></div>
+					<a href="#/" onclick="loadGamePage('Marvel’s Spider-Man: Miles Morales')">
+						<div class="card">
+							<img src="img/specialOffers/game13.jpg" class="card-img-top mb-4" alt="offer12">
+							<div class="card-body w-100 p-0 px-2">
+								<div class="minus-40 specialOffers-price">
+									131,40zł
+								</div>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="container d-none d-lg-block">
 			<div class="row">				
-				<div id="specialOffersCarousel" class="carousel slide carousel-fade mx-auto" data-bs-interval="false">
+				<div id="specialOffersCarousel" class="carousel slide mx-auto" data-bs-interval="false">
 					<div class="carousel-indicators">
 						<button type="button" data-bs-target="#specialOffersCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Special offer page 1"></button>
 						<button type="button" data-bs-target="#specialOffersCarousel" data-bs-slide-to="1" aria-label="Special offer page 2"></button>
@@ -329,7 +705,7 @@
 										</div>
 									</a>
 									<div class="my-auto"></div>
-									<a href="#/">
+									<a href="#/" onclick="loadGamePage('Sons Of The Forest')">
 										<div class="card d-block">
 											<img src="img/specialOffers/game4.jpg" class="card-img-top mb-4" alt="offer4">
 											<div class="card-body w-100 p-0 px-2">
@@ -345,7 +721,7 @@
 						<div class="carousel-item">
 							<div class="row g-3 justify-content-center">
 								<div class="col-4 d-flex flex-column">
-									<a href="#/">
+									<a href="#/" onclick="loadGamePage('Need for Speed™ Heat')">
 										<div class="card d-block ">
 											<img src="img/specialOffers/game5.jpg" class="card-img-top mb-4" alt="offer5">
 											<div class="card-body w-100 p-0 px-2">
@@ -356,36 +732,37 @@
 										</div>
 									</a>
 									<div class="my-auto"></div>
-									<a href="#/">
+									<a href="#/" onclick="loadGamePage('Graveyard Keeper')">
 										<div class="card d-block">
 											<img src="img/specialOffers/game6.jpg" class="card-img-top mb-4" alt="offer6">
 											<div class="card-body w-100 p-0 px-2">
-												<div class="minus-30 specialOffers-price">
-													188,30zł
+												<div class="minus-80 specialOffers-price">
+													18,39zł
 												</div>
 											</div>
 										</div>
 									</a>
 								</div>
 								<div class="col-4">
-									<a href="#/">
+									<a href="#/" onclick="loadGamePage('Anno 1800')">
 										<div class="card">
 											<img src="img/specialOffers/game7.jpg" class="card-img-top mb-4" alt="offer7">
 											<div class="card-body w-100 p-2">
 												<div class="specialOffers-reason">
-													WEEKEND WYDAWCY
+													DARMOWY WEEKEND
 												</div>
 												<div class="specialOffers-time">
-													Oferta kończy się 2 listopada o 18:00.
+													Oferta kończy się 9 listopada o 19:00.
 												</div>
-												<div class="nawet-80 specialOffers-price">
+												<div class="minus-75 specialOffers-price">
+													62,47zł
 												</div>
 											</div>
 										</div>
 									</a>
 								</div>
 								<div class="col-4">
-									<a href="#/">
+									<a href="#/" onclick="loadGamePage('Green Hell')">
 										<div class="card">
 											<img src="img/specialOffers/game8.jpg" class="card-img-top mb-4" alt="offer2">
 											<div class="card-body w-100 p-2">
@@ -407,7 +784,7 @@
 						<div class="carousel-item">
 							<div class="row g-3 justify-content-center">
 								<div class="col-4 d-flex flex-column">
-									<a href="#/">
+									<a href="#/" onclick="loadGamePage('Heavy Rain')">
 										<div class="card d-block ">
 											<img src="img/specialOffers/game9.jpg" class="card-img-top mb-4" alt="offer9">
 											<div class="card-body w-100 p-0 px-2">
@@ -418,7 +795,7 @@
 										</div>
 									</a>
 									<div class="my-auto"></div>
-									<a href="#/">
+									<a href="#/" onclick="loadGamePage('Project Zomboid')">
 										<div class="card d-block">
 											<img src="img/specialOffers/game10.jpg" class="card-img-top mb-4" alt="offer10">
 											<div class="card-body w-100 p-0 px-2">
@@ -430,7 +807,7 @@
 									</a>
 								</div>
 								<div class="col-4">
-									<a href="#/">
+									<a href="#/"  onclick="loadGamePage('Cult of the Lamb')">
 										<div class="card">
 											<img src="img/specialOffers/game11.jpg" class="card-img-top mb-4" alt="offer7">
 											<div class="card-body w-100 p-2">
@@ -448,7 +825,7 @@
 									</a>
 								</div>
 								<div class="col-4 d-flex flex-column">
-									<a href="#/">
+									<a href="#/" nclick="loadGamePage('Marvel’s Spider-Man Remastered')">
 										<div class="card d-block ">
 											<img src="img/specialOffers/game12.jpg" class="card-img-top mb-4" alt="offer11">
 											<div class="card-body w-100 p-0 px-2">
@@ -459,7 +836,7 @@
 										</div>
 									</a>
 									<div class="my-auto"></div>
-									<a href="#/">
+									<a href="#/" onclick="loadGamePage('Marvel’s Spider-Man: Miles Morales')">
 										<div class="card d-block">
 											<img src="img/specialOffers/game13.jpg" class="card-img-top mb-4" alt="offer12">
 											<div class="card-body w-100 p-0 px-2">
@@ -488,8 +865,8 @@
 	<!-- End specialOffers --> 
 	<!-- Start hardware banner -->
 	<div class="hardware-banner">
-		<div class="container">
-			<div class="row g-0 justify-content-center mx-auto">
+		<div class="container-lg">
+			<div class="row g-0 justify-content-center  align-items-center mx-auto">
 				<div class="col-8" style="padding-right: 6px;">
 					<a href="end.html">
 						<img src="img/banners/steam-deck.gif" alt="steamdeck banner" class="d-block mx-auto img-fluid float-end">
@@ -506,7 +883,93 @@
 	<!-- End hardware -->
 	<!-- Start categories Section -->
 	<div class="categories">
-		<div class="container">
+		<div class="container-fluid d-lg-none slider">
+				<div class="relative slider-item">
+					<a href="end.html">
+						<img src="img/categories/category1.png" alt="category1">
+						<div class="gradient yellow"></div>
+						<div class="name">ŁAMIGŁÓWKI</div>
+					</a>
+				</div>
+				<div class="relative slider-item">
+					<a href="end.html">
+						<img src="img/categories/category2.png" alt="category2">
+						<div class="gradient red"></div>
+						<div class="name">SYMULACJE</div>
+					</a>
+				</div>
+				<div class="relative slider-item">
+					<a href="end.html">
+						<img src="img/categories/category3.png" alt="category3">
+						<div class="gradient green"></div>
+						<div class="name">WYŚCIGOWE</div>
+					</a>
+				</div>
+				<div class="relative slider-item">
+					<a href="end.html">
+						<img src="img/categories/category4.png" alt="category4">
+						<div class="gradient blue"></div>
+						<div class="name">STRATEGICZNE</div>
+					</a>
+				</div>
+				<div class="relative slider-item">
+					<a href="end.html">
+						<img src="img/categories/category5.png" alt="category5">
+						<div class="gradient pink"></div>
+						<div class="name">OTWARTY ŚWIAT</div>
+					</a>
+				</div>
+				<div class="relative slider-item">
+					<a href="end.html">
+						<img src="img/categories/category6.png" alt="category6">
+						<div class="gradient green"></div>
+						<div class="name">FREE TO PLAY</div>
+					</a>
+				</div>
+				<div class="relative slider-item">
+					<a href="end.html">
+						<img src="img/categories/category7.png" alt="category7">
+						<div class="gradient yellow"></div>
+						<div class="name">PRZYGODOWE</div>
+					</a>
+				</div>
+				<div class="relative slider-item">
+					<a href="end.html">
+						<img src="img/categories/category8.png" alt="category8">
+						<div class="gradient cyan"></div>
+						<div class="name">BOGATA FABUŁA</div>
+					</a>
+				</div>
+				<div class="relative slider-item">
+					<a href="end.html">
+						<img src="img/categories/category9.png" alt="category9">
+						<div class="gradient red"></div>
+						<div class="name">BIJATYKI</div>
+					</a>
+				</div>
+				<div class="relative slider-item">
+					<a href="end.html">
+						<img src="img/categories/category10.png" alt="category10">
+						<div class="gradient yellow"></div>
+						<div class="name">BUDOWANIE OSADY</div>
+					</a>
+				</div>
+				<div class="relative slider-item">
+					<a href="end.html">
+						<img src="img/categories/category11.png" alt="category11">
+						<div class="gradient blue"></div>
+						<div class="name">AKCJA</div>
+					</a>
+				</div>
+				<div class="relative slider-item">
+					<a href="end.html">
+						<img src="img/categories/category12.png" alt="category12">
+						<div class="gradient green"></div>
+						<div class="name">SPORTOWE</div>
+					</a>
+				</div>
+		</div>
+		<div class="container d-none d-lg-block">
 			<div class="row">				
 				<div id="categoriesCarousel" class="carousel slide carousel-fade mx-auto" data-bs-interval="false">
 					<div class="carousel-indicators">
