@@ -1,0 +1,52 @@
+genre: RPG@
+desc: Cyberpunk 2077 to pełna akcji gra role-playing, której akcja toczy się w Night City, megalopolis rządzonym przez obsesyjną pogoń za władzą, sławą i przerabianiem własnego ciała.@
+lastRev: Bardzo pozytywne<span class="review-number">(18,679)</span>@
+allRev: Bardzo pozytywne<span class="review-number">(593,630)</span>@
+producent: CD PROJEKT RED@
+publisher: CD PROJEKT RED@
+releaseDate: 10 grudnia 2020@
+tags: 6@
+tag0: Cyberpunk@
+tag1: Otwarty świat@
+tag2: Jednoosobowe@
+tag3: RPG@
+tag4: Akcja@
+tag5: FPS@
+price: 119,40zł@
+discount: true@
+discountAmount: minus-40@
+timeLeft: OFERTA SPECJALNA! Oferta kończy się za 48H@
+platforms: 1@
+platform0: <i class="fa-brands fa-windows fa-xl mx-2"></i>@
+about: <img src="gameData/Cyberpunk 2077/desc1.jpg" alt="about1">Cyberpunk 2077 to rozgrywająca się w otwartym świecie przygoda, w której jako najemnik stajesz do walki z siłami trzęsącymi Night City. Stwórz postać i zdefiniuj własny styl gry, rozsławiaj swoje imię i odblokowuj cybernetyczne ulepszenia. Relacje, które zawiążesz, i wybory, które podejmiesz, wpłyną na twoją opowieść i historię potężnego miasta przyszłości. Tu rodzą się legendy. Jaka będzie twoja?<img src="gameData/Cyberpunk 2077/desc2.jpg" alt="about2">ZAWIERA AKTUALIZACJĘ 2.0
+Spełnij swoje najdziksze cyberpunkowe fantazje dzięki darmowej Aktualizacji 2.0, która wprowadza szereg nowych elementów rozgrywki i usprawnień do Cyberpunka 2077, w tym: zmienione drzewka atutów i umiejętności, zmodyfikowane wszczepy, jazdę bojową, pościgi, nowy system policji, odświeżone SI przeciwników i wiele więcej.<img src="gameData/Cyberpunk 2077/desc3.png" alt="about3">STWÓRZ WŁASNEGO CYBERPUNKA
+Zostań wyjętym spod prawa, uzbrojonym w cybernetyczne ulepszenia najemnikiem i zasłuż na miano legendy Night City.<img src="gameData/Cyberpunk 2077/desc4.png" alt="about4">ZBUDUJ WŁASNĄ LEGENDĘ
+Przeżywaj szalone przygody i rozwijaj relacje z barwnymi postaciami, o których losach zadecydują twoje wybory.<img src="gameData/Cyberpunk 2077/desc5.png" alt="about5">WYPOSAŻONY W ULEPSZENIA
+Zagraj w Cyberpunka 2077 wzbogaconego o szereg zmian i ulepszeń m.in. w rozgrywce, ekonomii gry, lokacjach i mapie świata!@
+features: 4@
+feature0: <i class="fa-solid fa-user"></i>
+<a href="#/">Jednoosobowa</a>@
+feature1: <i class="fa-solid fa-star"></i>
+<a href="#/">Osiągnięcia Steam</a>@
+feature2: <i class="fa-solid fa-gamepad"></i>
+<a href="#/">Częściowa obsługa kontrolerów</a>@
+feature3: <i class="fa-solid fa-cloud"></i>
+<a href="#/">Steam Cloud</a>@
+featuresHeader: -19%@
+links: 9@
+link0: <a href="#/">Odwiedź stronę internetową</a>@
+link1: <a href="#/">Cyberpunk 2077 na Facebooku</a>@
+link2: <a href="#/">cdprojektred na Twitchu</a>@
+link3: <a href="#/">Cyberpunk 2077 na Twitterze</a>@
+link4: <a href="#/">Cyberpunk 2077 na YouTube</a>@
+link5: <a href="#/">Wyświetl historię aktualizacji</a>@
+link6: <a href="#/">Zobacz powiązane aktualności</a>@
+link7: <a href="#/">Pokaż dyskusje</a>@
+link8: <a href="#/">Znajdź grupy społeczności</a>@
+linksHeader: -4%@
+pegi: img/PEGI/18.png@
+polish: 111@
+english: 111@
+german: 111@
+spanish: 111@
+japanese: 111@

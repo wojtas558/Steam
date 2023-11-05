@@ -1,0 +1,48 @@
+genre: Akcji@
+desc: Witaj w Nowym Świecie! W Monster Hunter: World, najnowszej odsłonie serii, wybierzesz się na wyjątkowe łowy, w czasie których wykorzystasz wszystko, co masz do dyspozycji, by polować na potwory w świecie pełnym niespodzianek i emocji.@
+lastRev: Bardzo pozytywne<span class="review-number">(1,700)</span>@
+allRev: Bardzo pozytywne<span class="review-number">(236,201)</span>@
+producent: CAPCOM Co., Ltd.@
+publisher: CAPCOM Co., Ltd.@
+releaseDate: 9 sierpnia 2018@
+tags: 6@
+tag0: Kooperacja@
+tag1: Wieloosobowe@
+tag2: Akcja@
+tag3: Otwarty świat@
+tag4: RPG@
+tag5: Fantasy@
+price: 62,50zł@
+discount: true@
+discountAmount: minus-50@
+timeLeft:  Oferta kończy się 9 listopada o 20:30.@
+platforms: 1@
+platform0: <i class="fa-brands fa-windows fa-xl mx-2"></i>@
+about: Witaj w nowym świecie! Wciel się w rolę łowcy i poluj na dzikie potwory w tętniącym życiem ekosystemie, w którym z pomocą mogą przyjść ci ukształtowanie terenu i jego różnorodni mieszkańcy. Poluj samodzielnie lub w trybie współpracy z maksymalnie trzema innymi graczami, a z materiałów pozostawionych przez pokonane potwory wytwarzaj nowe wyposażenie, by stawić czoło jeszcze większym i groźniejszym bestiom!<p>Walcz a gigantycznymi potworami w spektakularnym otoczeniu.</p>Jako łowca będziesz przyjmować zadania upolowania potworów w rozmaitych siedliskach.
+Po pokonaniu potworów otrzymasz materiały służące do wyrobu silniejszej broni i pancerzy, przydatnych do polowania na jeszcze groźniejsze bestie.<br><br>W Monster Hunter: World, najnowszej odsłonie serii, wybierzesz się na wyjątkowe łowy, w czasie których wykorzystasz wszystko, co masz do dyspozycji, by polować na potwory w świecie pełnym niespodzianek i emocji.<img src="gameData/Monster Hunter World/desc1.jpg" alt="about1"><p>Fabuła</p>Co dziesięć lat Starsze Smoki podróżują przez morze do miejsca zwanego Nowym Światem. Zjawisko to nazywa się Migracją Starszych.<br><br>W celu wyjaśnienia tego tajemniczego wydarzenia gildia powołała Komisję Badawczą, która wyrusza dużymi flotami do Nowego Świata.<br><br>Kiedy Komisja wysyła Piątą Flotę w ślad za ogromnym Starszym Smokiem znanym jako Zorah Magdaros, jeden łowca szykuje się do podróży wykraczającej poza wszystko, co mógłby sobie wyobrazić.<img src="gameData/Monster Hunter World/desc2.jpg" alt="about2"><p>Koleżkoty</p>Koleżkoty to niezawodni terenowi towarzysze łowców, specjalizujący się w rozmaitych zdolnościach ofensywnych, defensywnych i regeneracyjnych.
+Koleżkot łowcy dołącza do Piątej Floty z dumą, jako równy łowcom członek Komisji.<img src="gameData/Monster Hunter World/desc3.jpg" alt="about3">@
+features: 5@
+feature0: <i class="fa-solid fa-user"></i>
+<a href="#/">Jednoosobowa</a>@
+feature1: <i class="fa-solid fa-star"></i>
+<a href="#/">Osiągnięcia Steam</a>@
+feature2: <i class="fa-solid fa-gamepad"></i>
+<a href="#/">Częściowa obsługa kontrolerów</a>@
+feature3: <i class="fa-solid fa-cloud"></i>
+<a href="#/">Steam Cloud</a>@
+feature4: <i class="fa-solid fa-signal"></i>
+<a href="#/">Statystyki</a>@
+featuresHeader: -13%@
+links: 5@
+link0: <a href="#/">Odwiedź stronę internetową</a>@
+link1: <a href="#/">Wyświetl historię aktualizacji</a>@
+link2: <a href="#/">Zobacz powiązane aktualności</a>@
+link3: <a href="#/">Pokaż dyskusje</a>@
+link4: <a href="#/">Znajdź grupy społeczności</a>@
+linksHeader: -4%@
+pegi: img/PEGI/16.png@
+polish: 101@
+english: 111@
+german: 111@
+spanish: 111@
+japanese: 111@

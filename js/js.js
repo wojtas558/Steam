@@ -79,9 +79,14 @@ async function changeData()
     document.getElementById('price').innerHTML = extractData('price');
     if(extractData('discount') == "true")
     {
-        document.getElementById('price').classList.add(extractData('discountClass1'));
-        document.getElementById('price').classList.add(extractData('discountClass2'));
+        document.getElementById('price').classList.add(extractData('discountAmount'));
+        document.getElementById('price').classList.add("discount");
         document.getElementById('timeLeft').innerHTML = extractData('timeLeft');
+    }
+    platforms = parseInt(extractData('platforms'));
+    document.getElementById('platforms').innerHTML = "";
+    for(let i = 0; i < platforms; i++){
+        document.getElementById('platforms').innerHTML += extractData('platform' + String(i));
     }
     
     // ABOUT
@@ -115,14 +120,24 @@ async function changeData()
     for(let i = 0; i < 3; i++){
         if(polish[i] == 1)
             document.getElementById('polish' + String(i)).innerHTML = "<i class='fa-solid fa-check'></i>"
+        else
+            document.getElementById('polish' + String(i)).innerHTML = ""
         if(english[i] == 1)
-        document.getElementById('english' + String(i)).innerHTML = "<i class='fa-solid fa-check'></i>"
+            document.getElementById('english' + String(i)).innerHTML = "<i class='fa-solid fa-check'></i>"
+        else
+            document.getElementById('english' + String(i)).innerHTML = ""
         if(german[i] == 1)
             document.getElementById('german' + String(i)).innerHTML = "<i class='fa-solid fa-check'></i>"
+        else
+            document.getElementById('german' + String(i)).innerHTML = ""
         if(spanish[i] == 1)
             document.getElementById('spanish' + String(i)).innerHTML = "<i class='fa-solid fa-check'></i>"
+        else
+            document.getElementById('spanish' + String(i)).innerHTML = ""
         if(japanese[i] == 1)
             document.getElementById('japanese' + String(i)).innerHTML = "<i class='fa-solid fa-check'></i>"
+        else
+            document.getElementById('japanese' + String(i)).innerHTML = ""
     }
 }
 
@@ -150,13 +165,11 @@ function changeTags()
     document.getElementById('tags').innerHTML = '';
     width = 0;
     tags = 0;
-    console.log(maxWidth);
     while(width < maxWidth - 5 & tags < tagsWidth.length){
         width += tagsWidth[tags][0] + 23;
         if(width < maxWidth){
             tags++;
         }
-        console.log(width);
     }
     for(let i = 0; i < tags; i++){
         document.getElementById('tags').innerHTML += '<span class="badge">' + tagsWidth[i][1]; + '</span>';

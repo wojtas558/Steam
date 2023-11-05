@@ -800,12 +800,17 @@ body {
 }
 @media (min-width: 992px) {/*large*/
   .presentation{
-    margin-bottom: 2vh;
+    margin-bottom: 2.5vh;
+  }
+}
+@media (min-width: 1200px) {/*X large*/
+  .presentation{
+    margin-bottom: 6vh;
   }
 }
 @media (min-width: 1400px) {/*XX large*/
   .presentation{
-    margin-bottom: 15vh;
+    margin-bottom: 12vh;
   }
 }
 .presentation .breadcrumb{
@@ -998,6 +1003,13 @@ body {
   font-size: 15px;
   line-height: 150%;
   color: #ffffffc5;
+}
+.info .about p{
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 150%;
+  color: #ffffffff;
+  margin: 1.25vh 0px;
 }
 .info .about img{
   width: 100%;

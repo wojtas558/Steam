@@ -1,0 +1,44 @@
+genre: Symulacje@
+desc: EA SPORTS FC™ 24 to twoje zaproszenie do The World’s Game: najbardziej realistycznego piłkarskiego doświadczenia w historii dzięki HyperMotionV, stylom gry zoptymalizowanym przez dane firmy Opta i zrewolucjonizowanemu silnikowi Frostbite™.@
+lastRev: Mieszane<span class="review-number">(8,659)</span>@
+allRev: Mieszane<span class="review-number">(13,918)</span>@
+producent: EA Canada & EA Romania@
+publisher: Electronic Arts@
+releaseDate: 29 września 2023@
+tags: 6@
+tag0: Sportowe@
+tag1: Piłka nożna@
+tag2: Kontroler@
+tag3: PvP@
+tag4: Rywalizacja@
+tag5: E-sport@
+price: 319,90zł@
+discount: false@
+platforms: 1@
+platform0: <i class="fa-brands fa-windows fa-xl mx-2"></i>@
+about: <img src="gameData/EA SPORTS FC™ 24/desc1.jpg" alt="about1">@
+features: 5@
+feature0: <i class="fa-solid fa-user"></i>
+<a href="#/">Jednoosobowa</a>@
+feature1: <i class="fa-solid fa-user-group"></i>
+<a href="#/">Sieciowa kooperacja</a>@
+feature2: <i class="fa-solid fa-star"></i>
+<a href="#/">Osiągnięcia Steam</a>@
+feature3: <i class="fa-solid fa-gamepad"></i>
+<a href="#/">Pełna obsługa kontrolerów</a>@
+feature4: <i class="fa-solid fa-cart-shopping"></i>
+<a href="#/">Zakupy w aplikacji</a>@
+featuresHeader: -15%@
+links: 5@
+link0: <a href="#/">Odwiedź stronę internetową</a>@
+link1: <a href="#/">Wyświetl historię aktualizacji</a>@
+link2: <a href="#/">Zobacz powiązane aktualności</a>@
+link3: <a href="#/">Pokaż dyskusje</a>@
+link4: <a href="#/">Znajdź grupy społeczności</a>@
+linksHeader: -6.2%@
+pegi: img/PEGI/3.png@
+polish: 111@
+english: 111@
+german: 111@
+spanish: 111@
+japanese: 111@

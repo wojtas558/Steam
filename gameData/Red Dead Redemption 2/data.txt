@@ -1,0 +1,50 @@
+genre: Przygodowe@
+desc: RDR2, które zdobyło ponad 250 doskonałych ocen i 175 nagród dla gry roku, to spektakularna opowieść o Arthurze Morganie i niesławnym gangu van der Lindego w czasach u zarania współczesności. Zawiera teżakże dostęp do współdzielonego przez graczy i tętniącego życiem świata Red Dead Online.@
+lastRev: Bardzo pozytywne<span class="review-number">(10,231)</span>@
+allRev: Bardzo pozytywne<span class="review-number">(431,214)</span>@
+producent: Rockstar Games@
+publisher: Rockstar Games@
+releaseDate: 5 grudnia 2019@
+tags: 8@
+tag0: Western@
+tag1: Otwarty świat@
+tag2: Bogata fabuła@
+tag3: Realistyczne@
+tag4: Akcja@
+tag5: Jednoosobowe@
+tag6: Strzelanka@
+tag7: Przygodowe@
+price: 99,96zł@
+discount: true@
+discountAmount: minus-60@
+timeLeft: OFERTA SPECJALNA! Oferta kończy się za 48H@
+platforms: 1@
+platform0: <i class="fa-brands fa-windows fa-xl mx-2"></i>@
+about: Ameryka, rok 1899.<br><br>Arthur Morgan i gang van der Lindego są zmuszeni uciekać. Na plecach czują oddechy agentów federalnych i najlepszych łowców nagród, więc muszą napadać, kraść i walczyć z całych sił, aby przetrwać w surowym świecie sercu Ameryki. Coraz głębsze wewnętrzne spory grożą rozłamem gangu, a Arthur musi dokonać wyboru między ideałami a lojalnością wobec ludzi, którzy go wychowali.<br><br>Teraz Red Dead Redemption 2 zawiera też dodatkową zawartość trybu fabularnego i rozbudowany tryb fotograficzny, a także bezpłatny dostęp do współdzielonego przez graczy i tętniącego życiem świata sieciowej rozgrywki Red Dead Online, gdzie gracze mogą kreować własną ścieżkę kariery w ramach jednej z wielu profesji: ścigać przestępców jako łowcy nagród, prowadzić interesy jako handlarze, odkrywać egzotyczne skarby jako kolekcjonerzy i zarządzać nielegalną gorzelnią jako bimbrownicy. A to nie wszystko.<br><br>Red Dead Redemption 2 na PC oferuje szereg graficznych i technicznych usprawnień oraz w pełni wykorzystuje moc obliczeniową komputerów, aby tchnąć życie w każdy zakątek olbrzymiego, bogatego i szczegółowego świata gry. Osiąga to dzięki większej odległości renderowania obiektów, wyższej jakości globalnego oświetlenia i okluzji otoczenia – co poprawia wygląd oświetlenia w dzień i w nocy – lepszym odbiciom i głębszym cieniom w wyższej rozdzielczości, teselacji tekstur drzew oraz poprawionym teksturom trawy i futra, dzięki czemu wszystkie rośliny i zwierzęta wyglądają niezwykle realistycznie.<br><br>Red Dead Redemption 2 na PC oferuje także obsługę standardu HDR, rozdzielczości 4K+, wielu monitorów, monitorów szerokokątnych, wyświetlania wyższej liczby klatek i nie tylko.@
+features: 5@
+feature0: <i class="fa-solid fa-user"></i>
+<a href="#/">Jednoosobowa</a>@
+feature1: <i class="fa-solid fa-user-group"></i>
+<a href="#/">Sieciowa kooperacja</a>@
+feature2: <i class="fa-solid fa-star"></i>
+<a href="#/">Osiągnięcia Steam</a>@
+feature3: <i class="fa-solid fa-cart-shopping"></i>
+<a href="#/">Zakupy w aplikacji</a>@
+feature4: <i class="fa-solid fa-gamepad"></i>
+<a href="#/">Częściowa obsługa kontrolerów</a>@
+featuresHeader: -15%@
+links: 7@
+link0: <a href="#/">Odwiedź stronę internetową</a>@
+link1: <a href="#/">Wyświetl instrukcję</a>@
+link2: <a href="#/">Zobacz statystyki</a>@
+link3: <a href="#/">Wyświetl historię aktualizacji</a>@
+link4: <a href="#/">Zobacz powiązane aktualności</a>@
+link5: <a href="#/">Pokaż dyskusje</a>@
+link6: <a href="#/">Znajdź grupy społeczności</a>@
+linksHeader: -5%@
+pegi: img/PEGI/18.png@
+polish: 101@
+english: 111@
+german: 101@
+spanish: 101@
+japanese: 101@

@@ -1,0 +1,46 @@
+genre: Akcji@
+desc: Jedź i walcz w zabójczej, postpandemicznej Ameryce. W tej przygodowej grze akcji z otwartym światem zagrasz jako Deacon St. John, walczący o przetrwanie włóczęga i łowca nagród, przemierzający zniszczoną drogę w poszukiwaniu powodów, by dalej żyć.@
+lastRev: Bardzo pozytywne<span class="review-number">(979)</span>@
+allRev: Bardzo pozytywne<span class="review-number">(47,180)</span>@
+producent: Bend Studio@
+publisher: PlayStation PC LLC@
+releaseDate: 18 maja 2021@
+tags: 8@
+tag0: Zombie@
+tag1: Otwarty świat@
+tag2: Jednoosobowe@
+tag3: Survival@
+tag4: Postapokaliptyczne@
+tag5: Akcja@
+tag6: Bogata fabuła@
+tag7: Horror@
+price: 72,27zł@
+discount: true@
+discountAmount: minus-67@
+timeLeft: OFERTA SPECJALNA! Oferta kończy się za 72H@
+platforms: 1@
+platform0: <i class="fa-brands fa-windows fa-xl mx-2"></i>@
+about: Days Gone to przygodowa gra akcji w otwartym świecie, osadzona dwa lata po straszliwej, globalnej pandemii.<br><br>Wejdź w brudne buty wyjętego spod prawa motocyklisty, Deacona St. Johna, łowcy nagród, próbującego odszukać sens życia w kraju toczonym śmiercią. Przeszukuj opuszczone osady, znajdź wyposażenie i wytwórz cenne przedmioty i uzbrojenie albo spróbuj dogadać się z innymi ocalałymi i dokonuj uczciwej wymiany. Zawsze możesz też sięgnąć po brutalniejsze rozwiązania.<p>GŁÓWNE CECHY</p>• Niezwykły świat: Północno-zachodnie wybrzeże Stanów Zjednoczonych to piękne i niebezpieczne miejsce o zróżnicowanym krajobrazie. Odkrywaj różne tereny, od lasów i łąk po zaśnieżone równiny i pola magmy. Eksploruj tereny górskie, jaskinie, kopalnie i niewielkie miasteczka naznaczone przez miliony lat aktywności wulkanicznej.<br><br>• Brutalne spotkania: Aby przetrwać w świecie nękanym przez brutalne gangi i hordy świrusów, musisz wykorzystać wachlarz personalizowanych pułapek, broni i umiejętności. Nie zapomnij o swoim motocyklu włóczęgi, który także stanowi bezcenne narzędzie.<br><br>• Zmieniające się otoczenie: Usiądź za kierownicą sprawdzonego motocykla i zwiedzaj dynamicznie zmieniający się świat z kapryśną pogodą, dynamicznym cyklem dnia i nocy, a także ewoluującymi świrusami oraz postaciami, które dostosowują się do otoczenia.<br><br>• Wciągająca historia: Poznaj niezwykłą opowieść o rozpaczy, zdradzie i smutku, i pomóż Deaconowi St. Johnowi odnaleźć nową nadzieję po straszliwej stracie. Czy zdołasz zachować człowieczeństwo w obliczu codziennej walki o przetrwanie?@
+features: 4@
+feature0: <i class="fa-solid fa-user"></i>
+<a href="#/">Jednoosobowa</a>@
+feature1: <i class="fa-solid fa-star"></i>
+<a href="#/">Osiągnięcia Steam</a>@
+feature2: <i class="fa-solid fa-gamepad"></i>
+<a href="#/">Pełna obsługa kontrolerów</a>@
+feature3: <i class="fa-solid fa-cloud"></i>
+<a href="#/">Steam Cloud</a>@
+featuresHeader: -18.5%@
+links: 5@
+link0: <a href="#/">Bend Studio #DaysGone na Twitterze</a>@
+link1: <a href="#/">Wyświetl historię aktualizacji</a>@
+link2: <a href="#/">Zobacz powiązane aktualności</a>@
+link3: <a href="#/">Pokaż dyskusje</a>@
+link4: <a href="#/">Znajdź grupy społeczności</a>@
+linksHeader: -7%@
+pegi: img/PEGI/18.png@
+polish: 111@
+english: 111@
+german: 111@
+spanish: 111@
+japanese: 101@
