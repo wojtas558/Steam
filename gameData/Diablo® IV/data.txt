@@ -21,22 +21,22 @@ platform0: <i class="fa-brands fa-windows fa-xl mx-2"></i>@
 about: Dołącz do walki o Sanktuarium w Diablo IV, wyjątkowej grze przygodowej RPG. Przejdź docenioną przez krytyków kampanię i nową zawartość sezonową.<img src="gameData/Diablo® IV/desc1.png" alt="about1">Diablo® IV Standard Edition zawiera:<br>- skrzydła oraz murlokowego zwierzaka Inariusa w Diablo® III**<br>- wierzchowca Amalgam of Rage w World of Warcraft®**<img src="gameData/Diablo® IV/desc2.png" alt="about2"><img src="gameData/Diablo® IV/desc3.png" alt="about3"><img src="gameData/Diablo® IV/desc4.png" alt="about4"><img src="gameData/Diablo® IV/desc5.png" alt="about5">@
 features: 5@
 feature0: <i class="fa-solid fa-user"></i>
-<a href="#/">Jednoosobowa</a>@
+<a href="end.html">Jednoosobowa</a>@
 feature1: <i class="fa-solid fa-user-group"></i>
-<a href="#/">Sieciowa kooperacja</a>@
+<a href="end.html">Sieciowa kooperacja</a>@
 feature2: <i class="fa-solid fa-star"></i>
-<a href="#/">Osiągnięcia Steam</a>@
+<a href="end.html">Osiągnięcia Steam</a>@
 feature3: <i class="fa-solid fa-gamepad"></i>
-<a href="#/">Pełna obsługa kontrolerów</a>@
+<a href="end.html">Pełna obsługa kontrolerów</a>@
 feature4: <i class="fa-solid fa-cart-shopping"></i>
-<a href="#/">Zakupy w aplikacji</a>@
+<a href="end.html">Zakupy w aplikacji</a>@
 featuresHeader: -15%@
 links: 5@
-link0: <a href="#/">Odwiedź stronę internetową</a>@
-link1: <a href="#/">Wyświetl historię aktualizacji</a>@
-link2: <a href="#/">Zobacz powiązane aktualności</a>@
-link3: <a href="#/">Pokaż dyskusje</a>@
-link4: <a href="#/">Znajdź grupy społeczności</a>@
+link0: <a href="end.html">Odwiedź stronę internetową</a>@
+link1: <a href="end.html">Wyświetl historię aktualizacji</a>@
+link2: <a href="end.html">Zobacz powiązane aktualności</a>@
+link3: <a href="end.html">Pokaż dyskusje</a>@
+link4: <a href="end.html">Znajdź grupy społeczności</a>@
 linksHeader: -7%@
 pegi: img/PEGI/18.png@
 polish: 111@

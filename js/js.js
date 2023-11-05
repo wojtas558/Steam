@@ -176,3 +176,11 @@ function changeTags()
     }
     document.getElementById('tags').innerHTML += '<span class="badge" id="plus"><i class="fa-solid fa-plus"></i></span>';
 }
+
+function calculateEndHeight()
+{
+    h1 = document.getElementById('navbar').getBoundingClientRect().height;
+    h2 = document.getElementById('footer').getBoundingClientRect().height;
+    document.getElementById('end').style.height = "calc(100vh - " + (parseInt(h1) + parseInt(h2)) + "px)";
+
+}

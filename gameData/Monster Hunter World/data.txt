@@ -23,22 +23,22 @@ Po pokonaniu potworów otrzymasz materiały służące do wyrobu silniejszej bro
 Koleżkot łowcy dołącza do Piątej Floty z dumą, jako równy łowcom członek Komisji.<img src="gameData/Monster Hunter World/desc3.jpg" alt="about3">@
 features: 5@
 feature0: <i class="fa-solid fa-user"></i>
-<a href="#/">Jednoosobowa</a>@
+<a href="end.html">Jednoosobowa</a>@
 feature1: <i class="fa-solid fa-star"></i>
-<a href="#/">Osiągnięcia Steam</a>@
+<a href="end.html">Osiągnięcia Steam</a>@
 feature2: <i class="fa-solid fa-gamepad"></i>
-<a href="#/">Częściowa obsługa kontrolerów</a>@
+<a href="end.html">Częściowa obsługa kontrolerów</a>@
 feature3: <i class="fa-solid fa-cloud"></i>
-<a href="#/">Steam Cloud</a>@
+<a href="end.html">Steam Cloud</a>@
 feature4: <i class="fa-solid fa-signal"></i>
-<a href="#/">Statystyki</a>@
+<a href="end.html">Statystyki</a>@
 featuresHeader: -13%@
 links: 5@
-link0: <a href="#/">Odwiedź stronę internetową</a>@
-link1: <a href="#/">Wyświetl historię aktualizacji</a>@
-link2: <a href="#/">Zobacz powiązane aktualności</a>@
-link3: <a href="#/">Pokaż dyskusje</a>@
-link4: <a href="#/">Znajdź grupy społeczności</a>@
+link0: <a href="end.html">Odwiedź stronę internetową</a>@
+link1: <a href="end.html">Wyświetl historię aktualizacji</a>@
+link2: <a href="end.html">Zobacz powiązane aktualności</a>@
+link3: <a href="end.html">Pokaż dyskusje</a>@
+link4: <a href="end.html">Znajdź grupy społeczności</a>@
 linksHeader: -4%@
 pegi: img/PEGI/16.png@
 polish: 101@

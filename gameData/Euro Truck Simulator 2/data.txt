@@ -23,29 +23,29 @@ platform2: <i class="fa-brands fa-steam fa-xl mx-2"></i>@
 about: <img src="gameData/Euro Truck Simulator 2/desc1.jpg" alt="about1">Podróżuj po Europie jako król dróg, kierowca ciężarówki, który dostarcza ważne ładunki na imponujące odległości! Dziesiątki miast do odkrycia w Wielkiej Brytanii, Belgii, Niemczech, Włoszech, Holandii, Polsce i wielu innych sprawią, że Twoja wytrzymałość, umiejętności i szybkość zostaną wykorzystane do granic możliwości. Jeśli masz to, czego potrzeba, aby być częścią elitarnej siły transportowej, zasiądź za kierownicą i udowodnij to!<p>Świat Ciężarówek</p>Skorzystaj z dodatkowych funkcji Euro Truck Simulator 2, dołączając do naszej społeczności internetowej w World of Trucks, naszym centrum wirtualnych kierowców ciężarówek z całego świata zainteresowanych Euro Truck Simulator 2 i przyszłymi symulatorami ciężarówek SCS Software.@
 features: 6@
 feature0: <i class="fa-solid fa-user"></i>
-<a href="#/">Jednoosobowa</a>@
+<a href="end.html">Jednoosobowa</a>@
 feature1: <i class="fa-solid fa-user-group"></i>
-<a href="#/">Sieciowa kooperacja</a>@
+<a href="end.html">Sieciowa kooperacja</a>@
 feature2: <i class="fa-solid fa-star"></i>
-<a href="#/">Osiągnięcia Steam</a>@
+<a href="end.html">Osiągnięcia Steam</a>@
 feature3: <i class="fa-solid fa-wrench"></i>
-<a href="#/">Warsztat Steam</a>@
+<a href="end.html">Warsztat Steam</a>@
 feature4: <i class="fa-solid fa-gamepad"></i>
-<a href="#/">Częściowa obsługa kontrolerów</a>@
+<a href="end.html">Częściowa obsługa kontrolerów</a>@
 feature5: <i class="fa-solid fa-cloud"></i>
-<a href="#/">Steam Cloud</a>@
+<a href="end.html">Steam Cloud</a>@
 featuresHeader: -11%@
 links: 10@
-link0: <a href="#/">Odwiedź stronę internetową</a>@
-link1: <a href="#/">scssoftware na Twitchu</a>@
-link2: <a href="#/">SCS Software na Twitterze</a>@
-link3: <a href="#/">SCS Software na YouTube</a>@
-link4: <a href="#/">Wyświetl instrukcję</a>@
-link5: <a href="#/">Wyświetl historię aktualizacji</a>@
-link6: <a href="#/">Zobacz powiązane aktualności</a>@
-link7: <a href="#/">Pokaż dyskusje</a>@
-link8: <a href="#/">Odwiedź warsztat</a>@
-link9: <a href="#/">Znajdź grupy społeczności</a>@
+link0: <a href="end.html">Odwiedź stronę internetową</a>@
+link1: <a href="end.html">scssoftware na Twitchu</a>@
+link2: <a href="end.html">SCS Software na Twitterze</a>@
+link3: <a href="end.html">SCS Software na YouTube</a>@
+link4: <a href="end.html">Wyświetl instrukcję</a>@
+link5: <a href="end.html">Wyświetl historię aktualizacji</a>@
+link6: <a href="end.html">Zobacz powiązane aktualności</a>@
+link7: <a href="end.html">Pokaż dyskusje</a>@
+link8: <a href="end.html">Odwiedź warsztat</a>@
+link9: <a href="end.html">Znajdź grupy społeczności</a>@
 linksHeader: -4%@
 pegi: img/PEGI/3.png@
 polish: 100@

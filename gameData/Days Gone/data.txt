@@ -23,20 +23,20 @@ platform0: <i class="fa-brands fa-windows fa-xl mx-2"></i>@
 about: Days Gone to przygodowa gra akcji w otwartym świecie, osadzona dwa lata po straszliwej, globalnej pandemii.<br><br>Wejdź w brudne buty wyjętego spod prawa motocyklisty, Deacona St. Johna, łowcy nagród, próbującego odszukać sens życia w kraju toczonym śmiercią. Przeszukuj opuszczone osady, znajdź wyposażenie i wytwórz cenne przedmioty i uzbrojenie albo spróbuj dogadać się z innymi ocalałymi i dokonuj uczciwej wymiany. Zawsze możesz też sięgnąć po brutalniejsze rozwiązania.<p>GŁÓWNE CECHY</p>• Niezwykły świat: Północno-zachodnie wybrzeże Stanów Zjednoczonych to piękne i niebezpieczne miejsce o zróżnicowanym krajobrazie. Odkrywaj różne tereny, od lasów i łąk po zaśnieżone równiny i pola magmy. Eksploruj tereny górskie, jaskinie, kopalnie i niewielkie miasteczka naznaczone przez miliony lat aktywności wulkanicznej.<br><br>• Brutalne spotkania: Aby przetrwać w świecie nękanym przez brutalne gangi i hordy świrusów, musisz wykorzystać wachlarz personalizowanych pułapek, broni i umiejętności. Nie zapomnij o swoim motocyklu włóczęgi, który także stanowi bezcenne narzędzie.<br><br>• Zmieniające się otoczenie: Usiądź za kierownicą sprawdzonego motocykla i zwiedzaj dynamicznie zmieniający się świat z kapryśną pogodą, dynamicznym cyklem dnia i nocy, a także ewoluującymi świrusami oraz postaciami, które dostosowują się do otoczenia.<br><br>• Wciągająca historia: Poznaj niezwykłą opowieść o rozpaczy, zdradzie i smutku, i pomóż Deaconowi St. Johnowi odnaleźć nową nadzieję po straszliwej stracie. Czy zdołasz zachować człowieczeństwo w obliczu codziennej walki o przetrwanie?@
 features: 4@
 feature0: <i class="fa-solid fa-user"></i>
-<a href="#/">Jednoosobowa</a>@
+<a href="end.html">Jednoosobowa</a>@
 feature1: <i class="fa-solid fa-star"></i>
-<a href="#/">Osiągnięcia Steam</a>@
+<a href="end.html">Osiągnięcia Steam</a>@
 feature2: <i class="fa-solid fa-gamepad"></i>
-<a href="#/">Pełna obsługa kontrolerów</a>@
+<a href="end.html">Pełna obsługa kontrolerów</a>@
 feature3: <i class="fa-solid fa-cloud"></i>
-<a href="#/">Steam Cloud</a>@
+<a href="end.html">Steam Cloud</a>@
 featuresHeader: -18.5%@
 links: 5@
-link0: <a href="#/">Bend Studio #DaysGone na Twitterze</a>@
-link1: <a href="#/">Wyświetl historię aktualizacji</a>@
-link2: <a href="#/">Zobacz powiązane aktualności</a>@
-link3: <a href="#/">Pokaż dyskusje</a>@
-link4: <a href="#/">Znajdź grupy społeczności</a>@
+link0: <a href="end.html">Bend Studio #DaysGone na Twitterze</a>@
+link1: <a href="end.html">Wyświetl historię aktualizacji</a>@
+link2: <a href="end.html">Zobacz powiązane aktualności</a>@
+link3: <a href="end.html">Pokaż dyskusje</a>@
+link4: <a href="end.html">Znajdź grupy społeczności</a>@
 linksHeader: -7%@
 pegi: img/PEGI/18.png@
 polish: 111@

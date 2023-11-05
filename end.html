@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pl">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon shortcut" href="img/favicon.png">
+
+	<!-- Bootstrap CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Font Awesome CSS -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+	<!-- Custom CSS -->
+	<link href="css/style.css" rel="stylesheet">
+
+	<title>Steam</title>
+</head>
+<body onload="calculateEndHeight()">
+	<!-- Start navbar Section -->
+	<nav class="custom-navbar navbar navbar navbar-expand-lg navbar-dark" arial-label="Steam navigation bar" id="navbar">
+		<div class="container">
+			<a class="navbar-brand text-uppercase" href="index.html">
+				<i class="fa-brands fa-steam px-3"></i>Steam
+			</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsSteam" aria-controls="navbarsSteam" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span><!-- --------------- zmienic color ikonki czyli calosc togglera -------------- -->
+			</button>
+			<div class="collapse navbar-collapse" id="navbarsSteam">
+				<ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
+					<li class="nav-item"><a class="nav-link" href="index.html">Informacje</a></li>
+					<li class="nav-item active"><a class="nav-link" href="shop.html">Sklep</a></li>
+					<li class="nav-item"><a class="nav-link" href="end.html">Społczeność</a></li>
+				</ul>
+				<!-- <ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
+					<li><a class="nav-link" href="cart.html"><img src="img/cart.svg"></a></li>
+					<li><a class="nav-link" href="#/"><img src="img/user.svg"></a></li>
+				</ul> -->
+			</div>
+		</div>
+	</nav>
+	<!-- End navbar --> 
+	<!-- Start end Section--> 
+    <div class="d-flex justify-content-center align-items-center" id="end">
+        <div class="spinner-border" role="status" id="spinner"></div>
+    </div>
+	<!-- End end --> 
+    <!-- Start footer Section -->
+	<footer class="footer-section" id="footer">
+		<div class="container">
+			<div class="text-center disclosures py-3 w-75 mx-auto">
+				© 2023 Valve Corporation. Wszelkie prawa zastrzeżone. Wszystkie znaki handlowe są własnością ich prawnych właścicieli w Stanach Zjednoczonych i innych krajach. Ceny zawierają podatek VAT (jeśli ma zastosowanie). 
+			</div>
+			<hr class="border border-1 m-0">
+			<div class="text-center links py-3">
+				<a href="end.html">Polityka prywatności</a><span class="mx-2">|</span><a href="end.html">Informacje prawne</a><span class="mx-2">|</span><a href="end.html" class="">Umowa użytkownika Steam</a><span class="mx-2">|</span><a href="end.html">Zwroty pieniędzy</a><span class="mx-2">|</span><a href="end.html">Ciasteczka</a>
+			</div>
+			<hr class="border border-1 m-0">
+			<div class="text-center socials py-4">
+				<div class="social d-inline px-5">
+					<a href="end.html"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+				</div>
+				<div class="social d-inline px-5">
+					<a href="end.html"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+				</div>
+				<div class="social d-inline px-5">
+					<a href="end.html"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- End Footer -->	
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/js.js"></script>
+</body>
+</html>

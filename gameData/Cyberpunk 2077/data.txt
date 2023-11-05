@@ -25,24 +25,24 @@ Przeżywaj szalone przygody i rozwijaj relacje z barwnymi postaciami, o których
 Zagraj w Cyberpunka 2077 wzbogaconego o szereg zmian i ulepszeń m.in. w rozgrywce, ekonomii gry, lokacjach i mapie świata!@
 features: 4@
 feature0: <i class="fa-solid fa-user"></i>
-<a href="#/">Jednoosobowa</a>@
+<a href="end.html">Jednoosobowa</a>@
 feature1: <i class="fa-solid fa-star"></i>
-<a href="#/">Osiągnięcia Steam</a>@
+<a href="end.html">Osiągnięcia Steam</a>@
 feature2: <i class="fa-solid fa-gamepad"></i>
-<a href="#/">Częściowa obsługa kontrolerów</a>@
+<a href="end.html">Częściowa obsługa kontrolerów</a>@
 feature3: <i class="fa-solid fa-cloud"></i>
-<a href="#/">Steam Cloud</a>@
+<a href="end.html">Steam Cloud</a>@
 featuresHeader: -19%@
 links: 9@
-link0: <a href="#/">Odwiedź stronę internetową</a>@
-link1: <a href="#/">Cyberpunk 2077 na Facebooku</a>@
-link2: <a href="#/">cdprojektred na Twitchu</a>@
-link3: <a href="#/">Cyberpunk 2077 na Twitterze</a>@
-link4: <a href="#/">Cyberpunk 2077 na YouTube</a>@
-link5: <a href="#/">Wyświetl historię aktualizacji</a>@
-link6: <a href="#/">Zobacz powiązane aktualności</a>@
-link7: <a href="#/">Pokaż dyskusje</a>@
-link8: <a href="#/">Znajdź grupy społeczności</a>@
+link0: <a href="end.html">Odwiedź stronę internetową</a>@
+link1: <a href="end.html">Cyberpunk 2077 na Facebooku</a>@
+link2: <a href="end.html">cdprojektred na Twitchu</a>@
+link3: <a href="end.html">Cyberpunk 2077 na Twitterze</a>@
+link4: <a href="end.html">Cyberpunk 2077 na YouTube</a>@
+link5: <a href="end.html">Wyświetl historię aktualizacji</a>@
+link6: <a href="end.html">Zobacz powiązane aktualności</a>@
+link7: <a href="end.html">Pokaż dyskusje</a>@
+link8: <a href="end.html">Znajdź grupy społeczności</a>@
 linksHeader: -4%@
 pegi: img/PEGI/18.png@
 polish: 111@
