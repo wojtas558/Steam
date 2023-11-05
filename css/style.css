@@ -371,7 +371,9 @@ body {
 
 
 
-
+.features #featuresCarousel{
+  background: radial-gradient(circle, rgb(30, 53, 83) 0%, rgba(27,37,51,1) 55%, rgba(29, 32, 36, 1) 75%);
+}
 .features {
   margin: 40px 0px;
 }
