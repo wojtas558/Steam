@@ -34,7 +34,7 @@ function changeCapsuleBack(slide)
 
 function loadGamePage(title)
 {
-    window.location.href = "../game.html" + "?title=" + title
+    window.location.href = "game.html" + "?title=" + title
 }
 
 async function changeData()
@@ -157,7 +157,7 @@ async function changeData()
 }
 
 function getData(title){
-    data = fetch('../gameData/' + title + '/data.txt')//https://stackoverflow.com/questions/14446447/how-to-read-a-local-text-file-in-the-browser
+    data = fetch('gameData/' + title + '/data.txt')//https://stackoverflow.com/questions/14446447/how-to-read-a-local-text-file-in-the-browser
     .then(response => response.text())
     .then(text => {
         return text;
