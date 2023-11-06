@@ -34,7 +34,7 @@ function changeCapsuleBack(slide)
 
 function loadGamePage(title)
 {
-    window.location.href = "Steam/game.html" + "?title=" + title
+    window.location.href = "game.html" + "?title=" + title
 }
 
 async function changeData()
@@ -83,10 +83,10 @@ async function changeData()
 
     // PRESENTATION IMAGES
     for (let i = 1; i < 6; i++) {
-        document.getElementById('carouselSlide' + String(i)).src = 'Steam/gameData/' + title + '/image' + String(i) + '.jpg';
-        document.getElementById('carouselIndicator' + String(i)).src = 'Steam/gameData/' + title + '/image' + String(i) + '.jpg';
+        document.getElementById('carouselSlide' + String(i)).src = 'gameData/' + title + '/image' + String(i) + '.jpg';
+        document.getElementById('carouselIndicator' + String(i)).src = 'gameData/' + title + '/image' + String(i) + '.jpg';
     }
-    document.getElementById('mainImage').src = 'Steam/gameData/' + title + '/main.jpg';
+    document.getElementById('mainImage').src = 'gameData/' + title + '/main.jpg';
 
 
     // BUY
