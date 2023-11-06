@@ -83,10 +83,10 @@ async function changeData()
 
     // PRESENTATION IMAGES
     for (let i = 1; i < 6; i++) {
-        document.getElementById('carouselSlide' + String(i)).src = 'Steam//gameData/' + title + '/image' + String(i) + '.jpg';
-        document.getElementById('carouselIndicator' + String(i)).src = 'Steam//gameData/' + title + '/image' + String(i) + '.jpg';
+        document.getElementById('carouselSlide' + String(i)).src = 'Steam/gameData/' + title + '/image' + String(i) + '.jpg';
+        document.getElementById('carouselIndicator' + String(i)).src = 'Steam/gameData/' + title + '/image' + String(i) + '.jpg';
     }
-    document.getElementById('mainImage').src = 'Steam//gameData/' + title + '/main.jpg';
+    document.getElementById('mainImage').src = 'Steam/gameData/' + title + '/main.jpg';
 
 
     // BUY
