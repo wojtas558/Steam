@@ -157,7 +157,7 @@ async function changeData()
 }
 
 function getData(title){
-    data = fetch('Steam/gameData/' + title + '/data.txt')//https://stackoverflow.com/questions/14446447/how-to-read-a-local-text-file-in-the-browser
+    data = fetch('gameData/' + title + '/data.txt')//https://stackoverflow.com/questions/14446447/how-to-read-a-local-text-file-in-the-browser
     .then(response => response.text())
     .then(text => {
         return text;
