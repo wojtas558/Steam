@@ -17,3 +17,14 @@ https://fontawesome.com
 
 __Fonts__  
 https://fonts.google.com/specimen/Barlow
+
+## Preview:
+
+__Info page__
+![Info page](infoPageScreen.png "Info page")
+
+__Shop page__
+![Shop page](shopPageScreen.png "Shop page")
+
+__Game page__
+![Game page](gamePageScreen.png "Game page")
